@@ -13,16 +13,16 @@ import {
 const menuItems = [
   { title: "Home", url: "/", icon: Home },
   { title: "About", url: "/about", icon: User },
-  { title: "Gallery", url: "/gallery", icon: Image },
-  { title: "Awards", url: "/awards", icon: Award },
   { title: "Research", url: "/research", icon: Search },
-  { title: "Positions", url: "/positions", icon: Briefcase },
   { title: "Projects", url: "/projects", icon: FolderKanban },
-  { title: "Resources", url: "/resources", icon: BookMarked },
-  { title: "Academic", url: "/academic", icon: GraduationCap },
   { title: "Publications", url: "/publications", icon: FileText },
+  { title: "Team", url: "/team", icon: UsersIcon }, // Renamed from "My Students"
+  { title: "Academic", url: "/academic", icon: GraduationCap },
+  { title: "Positions", url: "/positions", icon: Briefcase },
   { title: "Invited Talks", url: "/invited-talks", icon: Presentation },
-  { title: "My Students", url: "/team", icon: UsersIcon },
+  { title: "Awards", url: "/awards", icon: Award },
+  { title: "Gallery", url: "/gallery", icon: Image },
+  { title: "Resources", url: "/resources", icon: BookMarked },
   { title: "Contact", url: "/contact", icon: Mail },
 ];
 

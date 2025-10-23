@@ -395,6 +395,7 @@ const Team = () => {
       email: "242432009@nitdelhi.ac.in",
       photo: viaan,
       resumeUrl: "/resumes/242432009_Viaan_Sharma.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "David Kim",
@@ -404,6 +405,7 @@ const Team = () => {
       email: "david.kim@nitdelhi.ac.in",
       photo: student1,
       resumeUrl: "/resumes/david_kim.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "Rachel Thompson",
@@ -413,6 +415,7 @@ const Team = () => {
       email: "rachel.thompson@nitdelhi.ac.in",
       photo: student2,
       resumeUrl: "/resumes/rachel_thompson.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "Lisa Anderson",
@@ -422,6 +425,7 @@ const Team = () => {
       email: "lisa.anderson@nitdelhi.ac.in",
       photo: student4,
       resumeUrl: "/resumes/lisa_anderson.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "Amanda Lee",
@@ -431,6 +435,7 @@ const Team = () => {
       email: "amanda.lee@nitdelhi.ac.in",
       photo: student2,
       resumeUrl: "/resumes/amanda_lee.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "Alex Chen",
@@ -440,6 +445,7 @@ const Team = () => {
       email: "alex.chen@nitdelhi.ac.in",
       photo: student1,
       resumeUrl: "/resumes/alex_chen.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "Sarah Martinez",
@@ -449,6 +455,7 @@ const Team = () => {
       email: "sarah.martinez@nitdelhi.ac.in",
       photo: student2,
       resumeUrl: "/resumes/sarah_martinez.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "Michael Johnson",
@@ -458,6 +465,7 @@ const Team = () => {
       email: "michael.johnson@nitdelhi.ac.in",
       photo: student3,
       resumeUrl: "/resumes/michael_johnson.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "Emily Wang",
@@ -467,6 +475,7 @@ const Team = () => {
       email: "emily.wang@nitdelhi.ac.in",
       photo: student4,
       resumeUrl: "/resumes/emily_wang.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "James Park",
@@ -476,6 +485,7 @@ const Team = () => {
       email: "james.park@nitdelhi.ac.in",
       photo: student3,
       resumeUrl: "/resumes/james_park.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
     {
       name: "Robert Garcia",
@@ -485,6 +495,7 @@ const Team = () => {
       email: "robert.garcia@nitdelhi.ac.in",
       photo: student1,
       resumeUrl: "/resumes/robert_garcia.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/", // Add LinkedIn URL
     },
   ];
 
