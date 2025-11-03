@@ -386,7 +386,7 @@ import ankit from "@/assets/242432002.jpg";
 import dibya from "@/assets/242432003.jpg";
 import shanti from "@/assets/242432007.jpeg";
 import Anushka from "@/assets/Anushka.jpg";  
-import Arju from "@/assets/Arju.jpg";
+import Arju from "@/assets/Arju.jpeg";
 import Chhavi from "@/assets/Chhavi.jpeg";
 import Meghna from "@/assets/meghna.jpg";
 import Mihir from "@/assets/mihir.jpg";
@@ -399,7 +399,7 @@ import Khushi from "@/assets/Khushi.jpg";
 import Bhishek from "@/assets/Bhishek.jpg";
 import Vedang from "@/assets/Vedang.jpg";
 import Tanuj from "@/assets/Tanuj.jpg";
-import Vanagaraouthu from "@/assets/Vanagarouthu.jpg";
+import Vanagaraouthu from "@/assets/Vanagarouthu.jpeg";
 
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
