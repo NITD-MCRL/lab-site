@@ -28,26 +28,47 @@ const Academic = () => {
   ];
 
   const serviceRoles = [
+    // {
+    //   role: "Associate Editor",
+    //   organization: "Climate Dynamics Journal",
+    //   period: "2022-Present"
+    // },
+    // {
+    //   role: "Review Panel Member",
+    //   organization: "National Science Foundation",
+    //   period: "2021-Present"
+    // },
+    // {
+    //   role: "Conference Organizer",
+    //   organization: "International Climate Science Symposium",
+    //   period: "2023"
+    // },
+    // {
+    //   role: "Department Graduate Committee Chair",
+    //   organization: "University Graduate Programs",
+    //   period: "2020-2024"
+    // }
+
     {
-      role: "Associate Editor",
-      organization: "Climate Dynamics Journal",
-      period: "2022-Present"
-    },
-    {
-      role: "Review Panel Member",
-      organization: "National Science Foundation",
-      period: "2021-Present"
-    },
-    {
-      role: "Conference Organizer",
-      organization: "International Climate Science Symposium",
-      period: "2023"
-    },
-    {
-      role: "Department Graduate Committee Chair",
-      organization: "University Graduate Programs",
-      period: "2020-2024"
-    }
+      role: "Dr. Prashant Kumar - LIFE Member",
+      organization: "Ocean Society of India",
+      period: "2020"
+},
+{
+      role: "Dr. Prashant Kumar - Annual",
+      organization: "Asian Geo Science Society (AOGS)",
+      period: "2020"
+},
+{
+      role: "Dr. Prashant Kumar - Annual",
+      organization: "Korean Mathematical Society",
+      period: "2010"
+},
+{
+      role: "Dr. Prashant Kumar - Annual",
+      organization: "SIAM",
+      period: "2007"
+}
   ];
 
   return (

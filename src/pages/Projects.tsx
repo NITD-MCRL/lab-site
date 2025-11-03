@@ -4,46 +4,79 @@ import { FolderKanban } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    // {
+    //   title: "Arctic Climate Amplification Study",
+    //   status: "Ongoing",
+    //   funding: "National Science Foundation",
+    //   duration: "2023-2026",
+    //   description: "Investigating the mechanisms behind rapid Arctic warming and its global implications.",
+    //   team: ["Dr. Maria Rodriguez", "3 PhD Students", "2 Postdocs"]
+    // },
+    // {
+    //   title: "Ocean-Atmosphere Coupling Dynamics",
+    //   status: "Ongoing",
+    //   funding: "NOAA Climate Program",
+    //   duration: "2024-2027",
+    //   description: "Exploring interactions between ocean currents and atmospheric circulation patterns.",
+    //   team: ["Dr. Maria Rodriguez", "2 PhD Students", "1 Postdoc"]
+    // },
+    // {
+    //   title: "Carbon Cycle in Coastal Ecosystems",
+    //   status: "Ongoing",
+    //   funding: "Department of Energy",
+    //   duration: "2022-2025",
+    //   description: "Quantifying carbon sequestration in coastal wetlands and their role in climate mitigation.",
+    //   team: ["Dr. Maria Rodriguez", "4 PhD Students"]
+    // },
+    // {
+    //   title: "Renewable Energy Integration Models",
+    //   status: "Completed",
+    //   funding: "European Research Council",
+    //   duration: "2020-2023",
+    //   description: "Developed models for optimal integration of renewable energy sources in power grids.",
+    //   team: ["Dr. Maria Rodriguez", "2 PhD Students"]
+    // },
+    // {
+    //   title: "Extreme Weather Attribution",
+    //   status: "Ongoing",
+    //   funding: "NASA Earth Science",
+    //   duration: "2023-2026",
+    //   description: "Attribution of extreme weather events to anthropogenic climate change using advanced statistical methods.",
+    //   team: ["Dr. Maria Rodriguez", "3 PhD Students", "1 Postdoc"]
+    // }
+
     {
-      title: "Arctic Climate Amplification Study",
+      title: "Extended Forecast of Wind-Wave Parameter along the Indian Coastline using Multi-Task Machine Learning Model",
       status: "Ongoing",
-      funding: "National Science Foundation",
-      duration: "2023-2026",
-      description: "Investigating the mechanisms behind rapid Arctic warming and its global implications.",
-      team: ["Dr. Maria Rodriguez", "3 PhD Students", "2 Postdocs"]
-    },
-    {
-      title: "Ocean-Atmosphere Coupling Dynamics",
+      funding: " INCOIS, MoES, Govt of India",
+      duration: "2024-2026",
+      description: "",
+      team: ["Dr. Prashant Kumar"]
+},
+{
+      title: "Projection of Wave Power in Indian Ocean and its Utilization along the Coastal Regions",
       status: "Ongoing",
-      funding: "NOAA Climate Program",
-      duration: "2024-2027",
-      description: "Exploring interactions between ocean currents and atmospheric circulation patterns.",
-      team: ["Dr. Maria Rodriguez", "2 PhD Students", "1 Postdoc"]
-    },
-    {
-      title: "Carbon Cycle in Coastal Ecosystems",
-      status: "Ongoing",
-      funding: "Department of Energy",
+      funding: " SERB DST Govt. of India",
       duration: "2022-2025",
-      description: "Quantifying carbon sequestration in coastal wetlands and their role in climate mitigation.",
-      team: ["Dr. Maria Rodriguez", "4 PhD Students"]
-    },
-    {
-      title: "Renewable Energy Integration Models",
+      description: "",
+      team: ["Dr. Prashant Kumar"]
+},
+{
+      title: "Influence of natural climate variability over Indian ocean wave climate accessed by re-analysis and CMIP5 model data",
       status: "Completed",
-      funding: "European Research Council",
-      duration: "2020-2023",
-      description: "Developed models for optimal integration of renewable energy sources in power grids.",
-      team: ["Dr. Maria Rodriguez", "2 PhD Students"]
-    },
-    {
-      title: "Extreme Weather Attribution",
-      status: "Ongoing",
-      funding: "NASA Earth Science",
-      duration: "2023-2026",
-      description: "Attribution of extreme weather events to anthropogenic climate change using advanced statistical methods.",
-      team: ["Dr. Maria Rodriguez", "3 PhD Students", "1 Postdoc"]
-    }
+      funding: " Ministry of Earth Sciences (MoES)",
+      duration: "2018-2022",
+      description: "",
+      team: ["Dr. Prashant Kumar"]
+},
+{
+      title: "Modeling and simulation of moored ship motion in Paradip port under the resonance conditions for multidirectional random waves",
+      status: "Completed",
+      funding: " SERB DST",
+      duration: "2017-2020",
+      description: "",
+      team: ["Dr. Prashant Kumar"]
+}
   ];
 
   return (
@@ -81,7 +114,7 @@ const Projects = () => {
                   <span className="text-muted-foreground">{project.funding}</span>
                 </div>
                 <div>
-                  <span className="font-semibold">Team: </span>
+                  <span className="font-semibold">Principal Investigator: </span>
                   <span className="text-muted-foreground">{project.team.join(", ")}</span>
                 </div>
               </div>
