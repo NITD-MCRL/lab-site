@@ -386,7 +386,7 @@ import ankit from "@/assets/242432002.jpg";
 import dibya from "@/assets/242432003.jpg";
 import shanti from "@/assets/242432007.jpeg";
 import Anushka from "@/assets/Anushka.jpg";  
-//import Arju from "@/assets/Arju.jpeg";
+import Arju from "@/assets/Arju.jpeg";
 import Chhavi from "@/assets/Chhavi.jpeg";
 import Meghna from "@/assets/meghna.jpg";
 import Mihir from "@/assets/mihir.jpg";
@@ -549,16 +549,16 @@ const Team = () => {
   resumeUrl: "/resumes/Mihir.pdf",
   linkedinUrl: "https://www.linkedin.com/in/mihir-patel-7369b72b3/", // Add LinkedIn URL
  },
-// {
-//       name: "Arju",
-//       program: "PhD Research Scholar",
-//       year: "2024-Present",
-//       researchArea: "Climate Modelling with Machine Learning",
-//       email: "arju@nitdelhi.ac.in",
-//       photo: Arju,
-//       resumeUrl: "/resumes/Arju.pdf",
-//       linkedinUrl: "www.linkedin.com/in/arju-990589192", // Add LinkedIn URL
-//  },
+{
+      name: "Arju",
+      program: "PhD Research Scholar",
+      year: "2024-Present",
+      researchArea: "Climate Modelling with Machine Learning",
+      email: "arju@nitdelhi.ac.in",
+      photo: Arju,
+      resumeUrl: "/resumes/Arju.pdf",
+      linkedinUrl: "www.linkedin.com/in/arju-990589192", // Add LinkedIn URL
+ },
 {
       name: "Chhavi",
       program: "PhD Research Scholar",
