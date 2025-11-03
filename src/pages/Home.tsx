@@ -154,18 +154,22 @@ const Home = () => {
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <h2 className="text-3xl font-bold mb-3">Dr. Prashant Kumar</h2>
-              <p className="text-xl text-primary mb-4">Associate Professor & COE</p>
+              <p className="text-xl text-primary mb-4">Associate Professor & COE at NIT Delhi</p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Leading climate scientist specializing in climate modeling, ocean-atmosphere interactions, 
-                and polar climate change. With over 20 years of research experience and 150+ publications, 
-                driving innovative solutions to understand and address climate challenges.
+              Dr. Prashant Kumar is a distinguished climate researcher and Associate Professor at
+              National Institute of Technology Delhi, currently serving as Controller of Examination.
+              With over 20 years of research experience, he specializes in climate modeling, ocean-atmosphere
+              interactions, and polar climate change. Dr. Kumar has authored more than 150 peer-reviewed publications
+              and led multiple nationally funded research projects. His interdisciplinary work bridges applied mathematics
+              and environmental science to develop predictive models for climate variability and coastal dynamics. Passionate
+              about sustainable development, he continues to mentor researchers and contribute to national-level climate resilience strategies.
               </p>
-              <Button asChild className="gap-2">
+              {/* <Button asChild className="gap-2">
                 <Link to="/about">
                   View Full Profile
                   <ArrowRight className="h-4 w-4" />
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </CardContent>

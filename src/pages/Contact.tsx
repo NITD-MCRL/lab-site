@@ -135,7 +135,7 @@ const Contact = () => {
                   <Mail className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-lg">Email</p>
-                    <p className="text-muted-foreground">climate.lab@university.edu</p>
+                    <p className="text-muted-foreground">prashantkumar@nitdelhi.ac.in</p>
                   </div>
                 </div>
                 
@@ -143,7 +143,7 @@ const Contact = () => {
                   <Phone className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-lg">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 78350 14011</p>
                   </div>
                 </div>
               </div>
@@ -154,10 +154,10 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold text-lg">Address</p>
                     <p className="text-sm text-muted-foreground">
-                      Environmental Science Building<br />
-                      Room 401, 4th Floor<br />
-                      University Campus<br />
-                      City, State 12345
+                      Admin Block<br />
+                      Lab 104, 1st Floor<br />
+                      National Institute of Technology Delhi<br />
+                      Delhi, India 110036
                     </p>
                   </div>
                 </div>
@@ -165,8 +165,8 @@ const Contact = () => {
                 <div className="flex items-start gap-4">
                   <Globe className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-lg">Website</p>
-                    <p className="text-muted-foreground">www.climatelab.university.edu</p>
+                    <p className="font-semibold text-lg">Departmental Website</p>
+                    <p className="text-muted-foreground">https://nitdelhi.ac.in/applied-sciences/</p>
                   </div>
                 </div>
               </div>
