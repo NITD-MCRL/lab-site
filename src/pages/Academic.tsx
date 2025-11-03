@@ -4,27 +4,63 @@ import { GraduationCap, BookOpen } from "lucide-react";
 
 const Academic = () => {
   const courses = [
+    // {
+    //   code: "CLIM 501",
+    //   title: "Climate System Dynamics",
+    //   semester: "Fall 2024",
+    //   level: "Graduate",
+    //   description: "Advanced course covering Earth's climate system, energy balance, and climate variability."
+    // },
+    // {
+    //   code: "CLIM 601",
+    //   title: "Climate Modeling",
+    //   semester: "Spring 2025",
+    //   level: "Graduate",
+    //   description: "Hands-on training in climate model development, validation, and interpretation."
+    // },
+    // {
+    //   code: "ENV 301",
+    //   title: "Environmental Data Analysis",
+    //   semester: "Fall 2024",
+    //   level: "Undergraduate",
+    //   description: "Introduction to statistical methods and computational tools for environmental data."
+    // }
+
     {
-      code: "CLIM 501",
-      title: "Climate System Dynamics",
-      semester: "Fall 2024",
-      level: "Graduate",
-      description: "Advanced course covering Earth's climate system, energy balance, and climate variability."
-    },
-    {
-      code: "CLIM 601",
-      title: "Climate Modeling",
-      semester: "Spring 2025",
-      level: "Graduate",
-      description: "Hands-on training in climate model development, validation, and interpretation."
-    },
-    {
-      code: "ENV 301",
-      title: "Environmental Data Analysis",
-      semester: "Fall 2024",
-      level: "Undergraduate",
-      description: "Introduction to statistical methods and computational tools for environmental data."
-    }
+      code: "1",
+      title: "Divya Sardana , National Institute of Technology Delhi",
+      semester: "2023",
+      level: "Doctoral Thesis",
+      description: "Sea Level Rise Response to the Climate Modes, Model evaluation and projection of Sea Surface Height over global oceans"
+},
+{
+      code: "2",
+      title: "Prachi Priya , National Institute of Technology Delhi",
+      semester: "2023",
+      level: "Doctoral Thesis",
+      description: "Mathematical Modelling for Linear and Non-Linear Pressure Drop over Barriers in Partially Reflecting Arbitrary Shaped Port"
+},
+{
+      code: "3",
+      title: "Sukhwinder Kaur , National Institute of Technology Delhi",
+      semester: "2022",
+      level: "Doctoral Thesis",
+      description: "Influence of Natural Climate Variability and Projections of extreme Wind -Wave Climate in the Indian Ocean"
+},
+{
+      code: "4",
+      title: "Rupali , National Institute of Technology Delhi",
+      semester: "2021",
+      level: "Doctoral Thesis",
+      description: "Mathematical Modeling of Arbitrary Shaped Domain using Hybrid Element Method"
+},
+{
+      code: "5",
+      title: "Gulshan , National Institute of Technology Delhi",
+      semester: "2019",
+      level: "Doctoral Thesis",
+      description: "Mathematical Modeling of Multidirectional Random Waves by using Boundary Element Method in an Irregular Domain"
+}
   ];
 
   const serviceRoles = [
@@ -80,7 +116,7 @@ const Academic = () => {
           <CardContent className="p-6">
             <div className="flex items-center gap-3 mb-4">
               <BookOpen className="h-6 w-6 text-primary" />
-              <h2 className="text-2xl font-bold">Teaching</h2>
+              <h2 className="text-2xl font-bold"> Theses Guided</h2>
             </div>
             
             <div className="space-y-4">
