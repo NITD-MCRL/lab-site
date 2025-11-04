@@ -149,7 +149,7 @@ const Home = () => {
               <img
                 src={professorImage}
                 alt="Dr Prashant Kumar"
-                className="rounded-lg w-full object-cover aspect-[4/3] shadow-lg"
+                className="rounded-lg w-full object-contain aspect-[4/3] shadow-lg bg-gray-100"
               />
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
