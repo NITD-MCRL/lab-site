@@ -21,6 +21,7 @@ import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import logo from "/logo.png"; // Import logo from src/assets
+import Alumni from "./pages/Alumni";
 
 const queryClient = new QueryClient();
 
@@ -65,6 +66,8 @@ const App = () => (
                   <Route path="/invited-talks" element={<InvitedTalks />} />
                   <Route path="/workshop" element={<Workshop />} />
                   <Route path="/team" element={<Team />} />
+                  // In your App.tsx or routing setup
+                  <Route path="/alumni" element={<Alumni />} />
                   <Route path="/contact" element={<Contact />} />
                   {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                   <Route path="*" element={<NotFound />} />
