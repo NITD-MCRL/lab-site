@@ -19,7 +19,7 @@ const menuItems = [
   { title: "Team", url: "/team", icon: UsersIcon }, // Renamed from "My Students"
   { title: "Academic", url: "/academic", icon: GraduationCap },
   { title: "Positions", url: "/positions", icon: Briefcase },
-  { title: "Invited Talks", url: "/invited-talks", icon: Presentation },
+  { title: "Conference", url: "/invited-talks", icon: Presentation },
   { title: "Awards", url: "/awards", icon: Award },
   { title: "Gallery", url: "/gallery", icon: Image },
   { title: "Resources", url: "/resources", icon: BookMarked },

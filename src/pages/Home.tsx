@@ -58,7 +58,7 @@
 
 //   return (
 //     <div className="space-y-12 animate-fade-in">
-//       {/* Hero Section - Image Slider */}
+//       {/* Hero Section - Image Slider with Left Text & Right Image */}
 //       <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[500px] group">
 //         {/* Slides */}
 //         {researchSlides.map((slide, index) => (
@@ -68,30 +68,38 @@
 //               index === currentSlide ? 'opacity-100' : 'opacity-0'
 //             }`}
 //           >
-//             <img
-//               src={slide.image}
-//               alt={slide.title}
-//               className="w-full h-full object-cover"
-//             />
-//             <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-transparent flex items-center">
-//               <div className="max-w-2xl p-12">
-//                 <h1 className="text-5xl font-bold mb-4 animate-fade-in">
-//                   {slide.title}
-//                 </h1>
-//                 <p className="text-xl text-muted-foreground mb-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-//                   {slide.description}
-//                 </p>
-//                 <div className="flex gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-//                   <Button asChild size="lg" className="gap-2">
-//                     <Link to={slide.buttonLink}>
-//                       {slide.buttonText}
-//                       <ArrowRight className="h-4 w-4" />
-//                     </Link>
-//                   </Button>
-//                   <Button asChild size="lg" variant="outline">
-//                     <Link to="/contact">Contact Us</Link>
-//                   </Button>
+//             {/* Main content container */}
+//             <div className="flex h-full">
+//               {/* Left side - Text content */}
+//               <div className="w-1/2 bg-gradient-to-r from-background/95 to-background/80 flex items-center">
+//                 <div className="max-w-md p-12">
+//                   <h1 className="text-5xl font-bold mb-4 animate-fade-in">
+//                     {slide.title}
+//                   </h1>
+//                   <p className="text-xl text-muted-foreground mb-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+//                     {slide.description}
+//                   </p>
+//                   <div className="flex gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+//                     <Button asChild size="lg" className="gap-2">
+//                       <Link to={slide.buttonLink}>
+//                         {slide.buttonText}
+//                         <ArrowRight className="h-4 w-4" />
+//                       </Link>
+//                     </Button>
+//                     <Button asChild size="lg" variant="outline">
+//                       <Link to="/contact">Contact Us</Link>
+//                     </Button>
+//                   </div>
 //                 </div>
+//               </div>
+
+//               {/* Right side - Image */}
+//               <div className="w-1/2">
+//                 <img
+//                   src={slide.image}
+//                   alt={slide.title}
+//                   className="w-full h-full object-cover"
+//                 />
 //               </div>
 //             </div>
 //           </div>
@@ -140,7 +148,6 @@
 //         </div>
 //       </div>
 
-//       {/* Rest of your existing code remains the same */}
 //       {/* Professor Introduction */}
 //       <Card className="hover:shadow-xl transition-all duration-300">
 //         <CardContent className="p-8">
@@ -234,17 +241,41 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Microscope, BookOpen, Users, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, Microscope, BookOpen, Users, ChevronLeft, ChevronRight, Megaphone } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import labHero from "@/assets/lab-hero.jpg";
 import professorImage from "@/assets/professor.jpg";
-import research1 from "@/assets/research-1.jpg"; // Add your research images
+import research1 from "@/assets/research-1.jpg";
 import research2 from "@/assets/research-2.jpg";
 import research3 from "@/assets/research-3.jpg";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  // News marquee data - these will link to specific positions
+  const newsItems = [
+    {
+      id: 1,
+      text: "🎓 New PhD Position Available - Climate Modeling Research",
+      link: "/positions#phd-climate-modeling"
+    },
+    {
+      id: 2,
+      text: "🔬 Postdoctoral Researcher Opening - Ocean Dynamics Study",
+      link: "/positions#postdoc-ocean-dynamics"
+    },
+    {
+      id: 3,
+      text: "💼 Master's Research Assistant Positions - Apply Now",
+      link: "/positions#masters-assistant"
+    },
+    {
+      id: 4,
+      text: "📢 Summer Internship Program 2025 - Applications Open",
+      link: "/positions#summer-internship"
+    }
+  ];
 
   const researchSlides = [
     {
@@ -291,7 +322,34 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="space-y-12 animate-fade-in">
+    <div className="space-y-6 animate-fade-in">
+      {/* News Marquee Section */}
+      <div className="bg-primary/10 border border-primary/20 rounded-lg p-4 max-w-4xl mx-auto">
+        <div className="flex items-center gap-4 mb-3">
+          <div className="flex items-center gap-2 bg-primary text-primary-foreground px-3 py-1 rounded-full">
+            <Megaphone className="h-4 w-4" />
+            <span className="text-sm font-semibold">NEWS & UPDATES</span>
+          </div>
+          <Button asChild variant="outline" size="sm" className="ml-auto">
+            <Link to="/positions">View All Positions</Link>
+          </Button>
+        </div>
+        
+        <div className="relative overflow-hidden">
+          <div className="animate-marquee whitespace-nowrap">
+            {newsItems.map((item, index) => (
+              <Link
+                key={item.id}
+                to={item.link}
+                className="inline-block mx-8 text-lg font-medium text-primary hover:text-primary/80 hover:underline transition-colors"
+              >
+                {item.text}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* Hero Section - Image Slider with Left Text & Right Image */}
       <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[500px] group">
         {/* Slides */}
@@ -405,12 +463,6 @@ const Home = () => {
               and environmental science to develop predictive models for climate variability and coastal dynamics. Passionate
               about sustainable development, he continues to mentor researchers and contribute to national-level climate resilience strategies.
               </p>
-              {/* <Button asChild className="gap-2">
-                <Link to="/about">
-                  View Full Profile
-                  <ArrowRight className="h-4 w-4" />
-                </Link>
-              </Button> */}
             </div>
           </div>
         </CardContent>

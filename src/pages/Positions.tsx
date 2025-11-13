@@ -85,10 +85,10 @@ const Positions = () => {
                 </ul>
               </div>
 
-              <Button className="gap-2">
+              {/* <Button className="gap-2">
                 <Mail className="h-4 w-4" />
                 Apply Now
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
         ))}

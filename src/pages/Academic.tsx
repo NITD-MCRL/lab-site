@@ -4,28 +4,79 @@ import { GraduationCap, BookOpen } from "lucide-react";
 
 const Academic = () => {
   const courses = [
-    // {
-    //   code: "CLIM 501",
-    //   title: "Climate System Dynamics",
-    //   semester: "Fall 2024",
-    //   level: "Graduate",
-    //   description: "Advanced course covering Earth's climate system, energy balance, and climate variability."
-    // },
-    // {
-    //   code: "CLIM 601",
-    //   title: "Climate Modeling",
-    //   semester: "Spring 2025",
-    //   level: "Graduate",
-    //   description: "Hands-on training in climate model development, validation, and interpretation."
-    // },
-    // {
-    //   code: "ENV 301",
-    //   title: "Environmental Data Analysis",
-    //   semester: "Fall 2024",
-    //   level: "Undergraduate",
-    //   description: "Introduction to statistical methods and computational tools for environmental data."
-    // }
+    {
+      code: "01",
+      title: "Probability and Statistics",
+      semester: "Fall",
+      level: "Undergraduate",
+      description: "Introduces fundamental concepts of randomness, probability models, and statistical inference techniques."
+},
+{
+      code: "02",
+      title: "Advanced Calculus",
+      semester: "Fall",
+      level: "Undergraduate",
+      description: "Studies advanced topics in differentiation, integration, sequences, and series for mathematical modelling."
+},
+{
+      code: "03",
+      title: "Probability and Statistical Technique",
+      semester: "Spring",
+      level: "Undergraduate",
+      description: "Covers applied statistical methods and probability tools used for data analysis and decision-making."
+},
+{
+      code: "04",
+      title: "Numerical Methods",
+      semester: "Spring",
+      level: "Undergraduate",
+      description: "Focuses on algorithmic approaches to solve mathematical problems using computational techniques."
+},
+{
+      code: "05",
+      title: "Modelling and Simulation",
+      semester: "Fall",
+      level: "Postgraduate|PhD",
+      description: "Teaches mathematical modelling and simulation of real-world systems for analysis and prediction."
+},
+{
+      code: "06",
+      title: "Numerical Methods and Computations",
+      semester: "Fall",
+      level: "Postgraduate|PhD",
+      description: "Covers advanced numerical algorithms and computational strategies for solving scientific problems."
+},
+{
+      code: "07",
+      title: "Probability and Statistics",
+      semester: "Spring",
+      level: "Postgraduate|PhD",
+      description: "Explores graduate-level probabilistic modelling and statistical inference for complex datasets."
+},
+{
+      code: "08",
+      title: "Numerical Optimization",
+      semester: "Spring",
+      level: "Postgraduate|PhD",
+      description: "Focuses on optimization techniques used to minimize or maximize functions in engineering and science."
+},
+{
+      code: "09",
+      title: "Numerical Method Laboratory",
+      semester: "Spring",
+      level: "Postgraduate|PhD",
+      description: "Provides hands-on computational experiments to implement and test numerical algorithms."
+},
+{
+      code: "10",
+      title: "Computational Simulation Laboratory",
+      semester: "Fall",
+      level: "Postgraduate|PhD",
+      description: "Offers practical training in building and analyzing simulation models using computational tools."
+},
+  ];
 
+  const thesis = [
     {
       code: "1",
       title: "Divya Sardana , National Institute of Technology Delhi",
@@ -112,11 +163,11 @@ const Academic = () => {
       <h1 className="text-4xl font-bold mb-6">Academic Activities</h1>
       
       <div className="space-y-6">
-        <Card className="hover:shadow-lg transition-all duration-300">
+      <Card className="hover:shadow-lg transition-all duration-300">
           <CardContent className="p-6">
             <div className="flex items-center gap-3 mb-4">
               <BookOpen className="h-6 w-6 text-primary" />
-              <h2 className="text-2xl font-bold"> Theses Guided</h2>
+              <h2 className="text-2xl font-bold"> Teaching</h2>
             </div>
             
             <div className="space-y-4">
@@ -140,8 +191,37 @@ const Academic = () => {
             </div>
           </CardContent>
         </Card>
-
+      
         <Card className="hover:shadow-lg transition-all duration-300">
+          <CardContent className="p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <BookOpen className="h-6 w-6 text-primary" />
+              <h2 className="text-2xl font-bold"> Thesis Guided</h2>
+            </div>
+            
+            <div className="space-y-4">
+              {thesis.map((thesis, index) => (
+                <div 
+                  key={index} 
+                  className="p-4 bg-muted/50 rounded-lg hover:bg-muted transition-all"
+                >
+                  <div className="flex items-start justify-between gap-4 mb-2">
+                    <div>
+                      <h3 className="text-lg font-bold">{thesis.code}: {thesis.title}</h3>
+                      <p className="text-sm text-muted-foreground">{thesis.description}</p>
+                    </div>
+                    <div className="flex gap-2 flex-shrink-0">
+                      <Badge variant="secondary">{thesis.level}</Badge>
+                      <Badge variant="outline">{thesis.semester}</Badge>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* <Card className="hover:shadow-lg transition-all duration-300">
           <CardContent className="p-6">
             <div className="flex items-center gap-3 mb-4">
               <GraduationCap className="h-6 w-6 text-primary" />
@@ -163,7 +243,7 @@ const Academic = () => {
               ))}
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
     </div>
   );
