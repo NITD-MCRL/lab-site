@@ -65,60 +65,60 @@ const Alumni = () => {
         "Member of National Climate Committee"
       ]
     },
-    {
-      id: 4,
-      name: "Neha Gupta",
-      program: "M.Tech Research Scholar",
-      year: "2020-2022",
-      researchArea: "Renewable Energy Systems",
-      currentPosition: "Data Scientist",
-      currentOrganization: "Microsoft Research",
-      location: "Bangalore, India",
-      email: "neha.gupta@microsoft.com",
-      linkedinUrl: "https://linkedin.com/in/neha-gupta",
-      photo: alumni4,
-      achievements: [
-        "Developed AI models for energy optimization",
-        "Speaker at International AI Conference 2023",
-        "Open source contributor to climate AI tools"
-      ]
-    },
-    {
-      id: 5,
-      name: "Sanjay Verma",
-      program: "PhD Research Scholar",
-      year: "2016-2020",
-      researchArea: "Carbon Cycle Research",
-      currentPosition: "Senior Research Fellow",
-      currentOrganization: "Max Planck Institute for Meteorology",
-      location: "Hamburg, Germany",
-      email: "sanjay.verma@mpimet.mpg.de",
-      linkedinUrl: "https://linkedin.com/in/sanjay-verma",
-      photo: alumni5,
-      achievements: [
-        "Marie Curie Fellowship recipient",
-        "Key contributor to EU Horizon projects",
-        "Reviewer for Nature Climate Change"
-      ]
-    },
-    {
-      id: 6,
-      name: "Anjali Singh",
-      program: "M.Tech Research Scholar",
-      year: "2018-2020",
-      researchArea: "Climate Data Analytics",
-      currentPosition: "Climate Risk Analyst",
-      currentOrganization: "Goldman Sachs",
-      location: "Mumbai, India",
-      email: "anjali.singh@gs.com",
-      linkedinUrl: "https://linkedin.com/in/anjali-singh",
-      photo: alumni1, // You can replace with actual photos
-      achievements: [
-        "Developed climate risk assessment frameworks",
-        "Featured in Economic Times for climate finance work",
-        "Mentor for women in climate tech"
-      ]
-    }
+    // {
+    //   id: 4,
+    //   name: "Neha Gupta",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2020-2022",
+    //   researchArea: "Renewable Energy Systems",
+    //   currentPosition: "Data Scientist",
+    //   currentOrganization: "Microsoft Research",
+    //   location: "Bangalore, India",
+    //   email: "neha.gupta@microsoft.com",
+    //   linkedinUrl: "https://linkedin.com/in/neha-gupta",
+    //   photo: alumni4,
+    //   achievements: [
+    //     "Developed AI models for energy optimization",
+    //     "Speaker at International AI Conference 2023",
+    //     "Open source contributor to climate AI tools"
+    //   ]
+    // },
+    // {
+    //   id: 5,
+    //   name: "Sanjay Verma",
+    //   program: "PhD Research Scholar",
+    //   year: "2016-2020",
+    //   researchArea: "Carbon Cycle Research",
+    //   currentPosition: "Senior Research Fellow",
+    //   currentOrganization: "Max Planck Institute for Meteorology",
+    //   location: "Hamburg, Germany",
+    //   email: "sanjay.verma@mpimet.mpg.de",
+    //   linkedinUrl: "https://linkedin.com/in/sanjay-verma",
+    //   photo: alumni5,
+    //   achievements: [
+    //     "Marie Curie Fellowship recipient",
+    //     "Key contributor to EU Horizon projects",
+    //     "Reviewer for Nature Climate Change"
+    //   ]
+    // },
+    // {
+    //   id: 6,
+    //   name: "Anjali Singh",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2018-2020",
+    //   researchArea: "Climate Data Analytics",
+    //   currentPosition: "Climate Risk Analyst",
+    //   currentOrganization: "Goldman Sachs",
+    //   location: "Mumbai, India",
+    //   email: "anjali.singh@gs.com",
+    //   linkedinUrl: "https://linkedin.com/in/anjali-singh",
+    //   photo: alumni1, // You can replace with actual photos
+    //   achievements: [
+    //     "Developed climate risk assessment frameworks",
+    //     "Featured in Economic Times for climate finance work",
+    //     "Mentor for women in climate tech"
+    //   ]
+    // }
   ];
 
   // Group alumni by program type
@@ -271,11 +271,11 @@ const Alumni = () => {
             Are you an alumnus of our lab? Update your information and join our alumni network.
           </p>
           <div className="flex gap-4 justify-center">
-            <Button asChild>
+            {/* <Button asChild>
               <a href="mailto:climate.lab@university.edu">
                 Update Your Profile
               </a>
-            </Button>
+            </Button> */}
             <Button variant="outline" asChild>
               <a href="/contact">
                 Join Alumni Network

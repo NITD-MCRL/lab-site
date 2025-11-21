@@ -25,7 +25,7 @@ const menuItems = [
   { title: "Conference", url: "/invited-talks", icon: Presentation },
   { title: "Awards", url: "/awards", icon: Award },
  
-  { title: "Resources", url: "/resources", icon: BookMarked },
+  // { title: "Resources", url: "/resources", icon: BookMarked },
   { title: "Contact", url: "/contact", icon: Mail },
   { title: "Gallery", url: "/gallery", icon: Image },
 ];

@@ -359,6 +359,8 @@ import Vedang from "@/assets/Vedang.jpg";
 import Tanuj from "@/assets/Tanuj.jpg";
 import Vanagaraouthu from "@/assets/Vanagarouthu.jpeg";
 import kamlesh from "@/assets/KAMLESH.jpg";
+import Anshu from "@/assets/Anshu.jpg";
+import Rishabh from "@/assets/rishabh.jpeg";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
@@ -371,7 +373,7 @@ const Team = () => {
       name: "Viaan Sharma",
       program: "M.Tech Research Scholar",
       year: "2024-2026",
-      researchArea: "Cyclone Prediction| AI Researcher",
+      researchArea: "Cyclone-Induced Rainfall Prediction | AI Researcher",
       email: "242432009@nitdelhi.ac.in",
       photo: viaan,
       resumeUrl: "/resumes/242432009_Viaan_Sharma.pdf",
@@ -381,7 +383,7 @@ const Team = () => {
       name: "Shweta Jain",
       program: "M.Tech Research Scholar",
       year: "2024-2026",
-      researchArea: "Co-Founder@SkillifyMe | AI Researcher",
+      researchArea: "AI Researcher",
       email: "242432008@nitdelhi.ac.in",
       photo: shweta,
       resumeUrl: "/resumes/Shweta.pdf",
@@ -430,16 +432,38 @@ const Team = () => {
 
 
     // PhD Students - Ordered by seniority (earliest start year first)
+     
+    {
+      name: "Rishabh Kushwaha",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Heat Stress and Marine heatwaves", 
+      email: "rishabh@nitdelhi.ac.in",
+      photo: Rishabh,
+      resumeUrl: "/resumes/Anshu.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/rishabh-kushwaha-a89620256/",
+    },
+    {
+      name: "Anshu Yadav",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Wind-wave, Wave Power, and Tropical Cyclones", 
+      email: "anshuyadav@nitdelhi.ac.in",
+      photo: Anshu,
+      resumeUrl: "/resumes/Anshu.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/anshu-yadav-b41099233/",
+    },
     {
       name: "Kamlesh Kumar Saha",
       program: "PhD Research Scholar",
-      year: "2021-Present",
+      year: "2022-Present",
       researchArea: "Climate Modelling, Storm Surge Prediction using AI/ML",
       email: "kamleshkumarsaha@nitdelhi.ac.in",
       photo: kamlesh,
       resumeUrl: "/resumes/Kamlesh.pdf",
       linkedinUrl: "https://www.linkedin.com/in/kamlesh-kumar-saha-b91b0437a/",
     },
+    
     {
       name: "Anushka Sunil",
       program: "PhD Research Scholar",
