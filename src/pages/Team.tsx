@@ -23,7 +23,7 @@ import Vedang from "@/assets/Vedang.jpg";
 import Tanuj from "@/assets/Tanuj.jpg";
 import Vanagaraouthu from "@/assets/Vanagarouthu.jpeg";
 import kamlesh from "@/assets/KAMLESH.jpg";
-import Anshu from "@/assets/Anshu.jpg";
+import Anshu from "@/assets/anshu.jpg";
 import Rishabh from "@/assets/rishabh.jpeg";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
