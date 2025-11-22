@@ -104,7 +104,7 @@ const Team = () => {
       researchArea: "Heat Stress and Marine heatwaves", 
       email: "rishabh@nitdelhi.ac.in",
       photo: Rishabh,
-      resumeUrl: "/resumes/Anshu.pdf",
+      resumeUrl: "/resumes/Rishabh.pdf",
       linkedinUrl: "https://www.linkedin.com/in/rishabh-kushwaha-a89620256/",
     },
     {
