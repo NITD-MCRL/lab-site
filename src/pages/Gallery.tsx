@@ -19,17 +19,18 @@ import im14 from "@/assets/im14.jpeg";
 const Gallery = () => {
   // All gallery images combined
   const galleryImages = [
-    { src: im1 },
-    { src: im2 },
+    // { src: im1 },
+    // { src: im2 },
+    { src: im11 },
     { src: im3 },
-    { src: im4 },
+    // { src: im4 },
     { src: im5 },
     { src: im6 },
     { src: im7 },
     { src: im8 },
     { src: im9 },
     { src: im10 },
-    { src: im11 },
+    
     { src: im12 },
     { src: im13 },
     { src: im14 },

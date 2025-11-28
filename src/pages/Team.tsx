@@ -25,6 +25,9 @@ import Vanagaraouthu from "@/assets/Vanagarouthu.jpeg";
 import kamlesh from "@/assets/KAMLESH.jpg";
 import Anshu from "@/assets/anshu.jpg";
 import Rishabh from "@/assets/rishabh.jpeg";
+import Shruti from "@/assets/Shruti.jpeg";
+import Ramakant from "@/assets/Ramakant.jpeg";
+import Suresh from "@/assets/Suresh.jpeg";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
@@ -96,7 +99,40 @@ const Team = () => {
 
 
     // PhD Students - Ordered by seniority (earliest start year first)
-     
+    { 
+      name: "Ramakant Prasad",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Wind-Wave Climate Change", 
+      email: "ramakant.prasad@nitdelhi.ac.in",
+      photo: Ramakant,
+      resumeUrl: null, // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/ramakant-prasad-a42469a0/",
+      showResume: false, // Add this flag
+    },
+    {   
+      name: "Suresh Yadav",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Climate Change impacts on Economy", 
+      email: "sureshyadavirs@gmail.com",
+      photo: Suresh,
+      resumeUrl: null, // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/sureshyadavirs/",
+      showResume: false, // Add this flag
+    },
+    {
+      name: "Shruti",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Air Pollution Dynamics and it's associated climate feedback mechanism over India",
+      email: "shrutigulia@nitdelhi.ac.in",
+      photo: Shruti,
+      resumeUrl: null, // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/shruti-gulia-0227b0185/",
+      showResume: false, // Add this flag
+    },
+    
     {
       name: "Rishabh Kushwaha",
       program: "PhD Research Scholar",
@@ -127,7 +163,7 @@ const Team = () => {
       resumeUrl: "/resumes/Kamlesh.pdf",
       linkedinUrl: "https://www.linkedin.com/in/kamlesh-kumar-saha-b91b0437a/",
     },
-    
+   
     {
       name: "Anushka Sunil",
       program: "PhD Research Scholar",

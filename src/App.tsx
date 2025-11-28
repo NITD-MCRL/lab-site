@@ -40,16 +40,16 @@ const App = () => (
                 <h1 className="text-lg font-semibold">CLIMATE INTELLIGENCE AND SIMULATION
                 RESEARCH LAB</h1>
               </header> */}
-              <header className="sticky top-0 z-10 bg-background border-b px-4 py-3 flex items-center gap-3">
+              <header className="sticky top-0 z-10 bg-background border-b px-2 py-1 flex items-center gap-2 h-8">
                 <SidebarTrigger />
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <img 
                     src={logo} // Use the imported logo
                     alt="Climate Research Lab Logo"
                     className="h-10 w-10 object-contain" // Adjust size as needed
                   />
                   <h1 className="text-lg font-semibold">CLIMATE INTELLIGENCE AND SIMULATION RESEARCH LAB</h1>
-                </div>
+                </div> */}
               </header>
               <main className="flex-1 p-8 bg-gradient-to-br from-background via-background to-secondary/10">
                 <Routes>

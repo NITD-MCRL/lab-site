@@ -105,11 +105,12 @@ import professorImage from "@/assets/professor.jpg";
 
 const About = () => {
   const researchInterests = [
-    "Climate Modeling",
-    "Ocean-Atmosphere Dynamics",
-    "Carbon Cycle Research",
-    "Arctic Studies",
-    "Renewable Energy"
+    "Wind-Wave Climate",
+    "Extreme Heat Stress Analysis",
+    "Coastal Wave Climate Analysis",
+    "Arctic Sea Ice Variations",
+    "Climate Prediction using AI Techniques",
+    "Tropical Cyclone Prediction & Analysis"
   ];
 
   const timelineData = [
@@ -267,10 +268,10 @@ const About = () => {
                       <p className="font-semibold">Dr. Prashant Kumar - Annual</p>
                       <p className="text-sm text-muted-foreground">Korean Mathematical Society, 2010</p>
                     </div>
-                    <div>
+                    {/* <div>
                       <p className="font-semibold">Dr. Prashant Kumar - Annual</p>
                       <p className="text-sm text-muted-foreground">SIAM, 2007</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

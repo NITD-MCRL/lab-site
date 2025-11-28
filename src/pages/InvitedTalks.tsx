@@ -208,7 +208,7 @@ const InvitedTalks = () => {
 
   return (
     <div className="max-w-6xl mx-auto animate-fade-in">
-      <h1 className="text-4xl font-bold mb-6"> Talks & Conference</h1>
+      <h1 className="text-4xl font-bold mb-6"> Conference Talks</h1>
       
       <div className="space-y-4">
         {talks.map((talk, index) => (

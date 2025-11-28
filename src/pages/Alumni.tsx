@@ -3,124 +3,94 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Users, GraduationCap, Briefcase, MapPin, Mail, ExternalLink } from "lucide-react";
 // Import alumni photos (you'll need to add these images to your assets)
-import alumni1 from "@/assets/student1.jpg";
-import alumni2 from "@/assets/student2.jpg";
-import alumni3 from "@/assets/student3.jpg";
-import alumni4 from "@/assets/student4.jpg";
-import alumni5 from "@/assets/student4.jpg";
+import alumni1 from "@/assets/user.jpg";
+import alumni2 from "@/assets/user.jpg";
+import alumni3 from "@/assets/user.jpg";
+import alumni4 from "@/assets/user.jpg";
+import alumni5 from "@/assets/user.jpg";
+import alumni6 from "@/assets/user.jpg";
 
 const Alumni = () => {
   const alumniData = [
     {
       id: 1,
-      name: "Dr. Rajesh Sharma",
+      name: "Gulshan",
       program: "PhD Research Scholar",
-      year: "2018-2022",
-      researchArea: "Climate Modeling & Prediction",
-      currentPosition: "Climate Scientist",
-      currentOrganization: "Indian Institute of Tropical Meteorology, Pune",
-      location: "Pune, India",
-      email: "rajesh.sharma@iitm.ac.in",
-      linkedinUrl: "https://linkedin.com/in/rajesh-sharma",
+      year: "PhD – 2018",
+      researchArea: "Climate Science",
+      currentPosition: "Lecturer",
+      currentOrganization: "Government College in Haryana",
+      location: "Haryana, India",
+      email: "gulshan@example.com",
+      linkedinUrl: "https://linkedin.com/in/gulshan",
       photo: alumni1,
-      achievements: [
-        "Published 15+ research papers in Q1 journals",
-        "Awarded Young Scientist Award 2023",
-        "Lead author in IPCC special report"
-      ]
     },
     {
       id: 2,
-      name: "Priya Patel",
-      program: "M.Tech Research Scholar",
-      year: "2019-2021",
-      researchArea: "Ocean-Atmosphere Dynamics",
-      currentPosition: "Research Scientist",
-      currentOrganization: "National Oceanic and Atmospheric Administration",
-      location: "Maryland, USA",
-      email: "priya.patel@noaa.gov",
-      linkedinUrl: "https://linkedin.com/in/priya-patel",
+      name: "Rupali",
+      program: "PhD Research Scholar",
+      year: "PhD – 2021",
+      researchArea: "Climate Science",
+      currentPosition: "Assistant Professor",
+      currentOrganization: "K.R. Mangalam Institute, Gurugram",
+      location: "Gurugram, India",
+      email: "rupali@example.com",
+      linkedinUrl: "https://linkedin.com/in/rupali",
       photo: alumni2,
-      achievements: [
-        "Developed new wave prediction models",
-        "Contributed to NOAA's climate assessment",
-        "Patent for coastal erosion prediction system"
-      ]
     },
     {
       id: 3,
-      name: "Amit Kumar",
+      name: "Sukhwinder Kaur",
       program: "PhD Research Scholar",
-      year: "2017-2021",
-      researchArea: "Arctic Climate Studies",
-      currentPosition: "Assistant Professor",
-      currentOrganization: "University of Delhi",
-      location: "Delhi, India",
-      email: "amit.kumar@du.ac.in",
-      linkedinUrl: "https://linkedin.com/in/amit-kumar",
+      year: "PhD – 2022",
+      researchArea: "Climate Science",
+      currentPosition: "Scientist",
+      currentOrganization: "NCMRWF, Noida",
+      location: "Noida, India",
+      email: "sukhwinder@example.com",
+      linkedinUrl: "https://linkedin.com/in/sukhwinder",
       photo: alumni3,
-      achievements: [
-        "Received SERB Early Career Research Award",
-        "Principal investigator of 3 national projects",
-        "Member of National Climate Committee"
-      ]
     },
-    // {
-    //   id: 4,
-    //   name: "Neha Gupta",
-    //   program: "M.Tech Research Scholar",
-    //   year: "2020-2022",
-    //   researchArea: "Renewable Energy Systems",
-    //   currentPosition: "Data Scientist",
-    //   currentOrganization: "Microsoft Research",
-    //   location: "Bangalore, India",
-    //   email: "neha.gupta@microsoft.com",
-    //   linkedinUrl: "https://linkedin.com/in/neha-gupta",
-    //   photo: alumni4,
-    //   achievements: [
-    //     "Developed AI models for energy optimization",
-    //     "Speaker at International AI Conference 2023",
-    //     "Open source contributor to climate AI tools"
-    //   ]
-    // },
-    // {
-    //   id: 5,
-    //   name: "Sanjay Verma",
-    //   program: "PhD Research Scholar",
-    //   year: "2016-2020",
-    //   researchArea: "Carbon Cycle Research",
-    //   currentPosition: "Senior Research Fellow",
-    //   currentOrganization: "Max Planck Institute for Meteorology",
-    //   location: "Hamburg, Germany",
-    //   email: "sanjay.verma@mpimet.mpg.de",
-    //   linkedinUrl: "https://linkedin.com/in/sanjay-verma",
-    //   photo: alumni5,
-    //   achievements: [
-    //     "Marie Curie Fellowship recipient",
-    //     "Key contributor to EU Horizon projects",
-    //     "Reviewer for Nature Climate Change"
-    //   ]
-    // },
-    // {
-    //   id: 6,
-    //   name: "Anjali Singh",
-    //   program: "M.Tech Research Scholar",
-    //   year: "2018-2020",
-    //   researchArea: "Climate Data Analytics",
-    //   currentPosition: "Climate Risk Analyst",
-    //   currentOrganization: "Goldman Sachs",
-    //   location: "Mumbai, India",
-    //   email: "anjali.singh@gs.com",
-    //   linkedinUrl: "https://linkedin.com/in/anjali-singh",
-    //   photo: alumni1, // You can replace with actual photos
-    //   achievements: [
-    //     "Developed climate risk assessment frameworks",
-    //     "Featured in Economic Times for climate finance work",
-    //     "Mentor for women in climate tech"
-    //   ]
-    // }
+    {
+      id: 4,
+      name: "Prachi Priya",
+      program: "PhD Research Scholar",
+      year: "PhD – 2023",
+      researchArea: "Climate Science",
+      currentPosition: "Assistant Professor",
+      currentOrganization: "KIET Group of Institutions, Delhi–NCR, Ghaziabad",
+      location: "Ghaziabad, India",
+      email: "prachi@example.com",
+      linkedinUrl: "https://linkedin.com/in/prachi",
+      photo: alumni4,
+    },
+    {
+      id: 5,
+      name: "Divya Sardana",
+      program: "PhD Research Scholar",
+      year: "PhD – 2023",
+      researchArea: "Climate Science",
+      currentPosition: "Post-Doc & Lecturer",
+      currentOrganization: "IIT Roorkee & Government Polytechnic College",
+      location: "Uttar Pradesh, India",
+      email: "divya@example.com",
+      linkedinUrl: "https://linkedin.com/in/divya",
+      photo: alumni5,
+    },
+    {
+      id: 6,
+      name: "Vinita",
+      program: "PhD Research Scholar",
+      year: "PhD – 2025",
+      researchArea: "Climate Science",
+      currentPosition: "Lecturer",
+      currentOrganization: "Government Polytechnic College",
+      location: "Uttar Pradesh, India",
+      email: "divya@example.com",
+      linkedinUrl: "https://linkedin.com/in/divya",
+      photo: alumni6,
+    }
   ];
-
   // Group alumni by program type
   const phdAlumni = alumniData.filter(alumni => alumni.program.includes("PhD"));
   const mtechAlumni = alumniData.filter(alumni => alumni.program.includes("M.Tech"));
@@ -201,7 +171,7 @@ const Alumni = () => {
               </div>
 
               {/* Key Achievements */}
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <h4 className="font-semibold text-sm mb-2">Key Achievements</h4>
                 <ul className="space-y-1">
                   {alumni.achievements.slice(0, 2).map((achievement, idx) => (
@@ -216,10 +186,10 @@ const Alumni = () => {
                     </li>
                   )}
                 </ul>
-              </div>
+              </div> */}
 
               {/* Contact Links */}
-              <div className="flex gap-2 pt-4 border-t">
+              {/* <div className="flex gap-2 pt-4 border-t">
                 <Button variant="outline" size="sm" className="flex-1" asChild>
                   <a href={`mailto:${alumni.email}`}>
                     <Mail className="h-3 w-3 mr-1" />
@@ -232,14 +202,14 @@ const Alumni = () => {
                     LinkedIn
                   </a>
                 </Button>
-              </div>
+              </div> */}
             </CardContent>
           </Card>
         ))}
       </div>
 
       {/* Statistics Section */}
-      <Card className="bg-muted/50">
+      {/* <Card className="bg-muted/50">
         <CardContent className="p-8">
           <h2 className="text-2xl font-bold mb-6 text-center">Alumni Impact</h2>
           <div className="grid md:grid-cols-4 gap-6 text-center">
@@ -261,7 +231,7 @@ const Alumni = () => {
             </div>
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
 
       {/* Call to Action */}
       <Card>

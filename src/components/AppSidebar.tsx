@@ -19,10 +19,10 @@ const menuItems = [
   { title: "Publications", url: "/publications", icon: FileText },
   { title: "Team", url: "/team", icon: UsersIcon }, // Renamed from "My Students"
   // Add this to your menuItems array
-  { title: "Alumni", url: "/alumni",icon: Users}, // or use GraduationCap icon
+   { title: "Alumni", url: "/alumni",icon: Users}, // or use GraduationCap icon
  
-  { title: "Positions", url: "/positions", icon: Briefcase },
-  { title: "Conference", url: "/invited-talks", icon: Presentation },
+  // { title: "Positions", url: "/positions", icon: Briefcase },
+  { title: "Conference Talks", url: "/invited-talks", icon: Presentation },
   { title: "Awards", url: "/awards", icon: Award },
  
   // { title: "Resources", url: "/resources", icon: BookMarked },
