@@ -47,6 +47,29 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/",
     },
     {
+      name: "Ankit Kumar",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Cloudburst Analysis | ML Researcher",
+      email: "242432002@nitdelhi.ac.in",
+      photo: ankit,
+      resumeUrl: "/resumes/Ankit.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/ankitx55",
+    },
+    
+    {
+      name: "Dushyant Sharma",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Climate Data Analysis | ML Researcher",
+      email: "242432005@nitdelhi.ac.in",
+      photo: dushyant,
+      resumeUrl: "/resumes/DushyantSharma.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/dushyant-sharma-71588822b",
+    },
+    
+    
+    {
       name: "Shweta Jain",
       program: "M.Tech Research Scholar",
       year: "2024-2026",
@@ -56,26 +79,7 @@ const Team = () => {
       resumeUrl: "/resumes/Shweta.pdf",
       linkedinUrl: "https://www.linkedin.com/in/shweta-jain-a4aaa1246/",
     },
-    {
-      name: "Dushyant Sharma",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Climate Data Analysis",
-      email: "242432005@nitdelhi.ac.in",
-      photo: dushyant,
-      resumeUrl: "/resumes/DushyantSharma.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/dushyant-sharma-71588822b",
-    },
-    {
-      name: "Ankit Kumar",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Machine Learning Researcher",
-      email: "242432002@nitdelhi.ac.in",
-      photo: ankit,
-      resumeUrl: "/resumes/Ankit.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/ankitx55",
-    },
+    
     {
       name: "Dibyadarshini Maharatha",
       program: "M.Tech Research Scholar",
@@ -202,7 +206,7 @@ const Team = () => {
       email: "arju@nitdelhi.ac.in",
       photo: Arju,
       resumeUrl: "/resumes/Arju.pdf",
-      linkedinUrl: "www.linkedin.com/in/arju-990589192",
+      linkedinUrl: "https://www.linkedin.com/in/arju-990589192",
     },
     {
       name: "Abhinav Chaudhary",
@@ -232,7 +236,7 @@ const Team = () => {
       email: "rashikarana@nitdelhi.ac.in",
       photo: Rashika,
       resumeUrl: "/resumes/Rashika.pdf",
-      linkedinUrl: "www.linkedin.com/in/ rashika-rana-7495a9394",
+      linkedinUrl: "https://www.linkedin.com/in/rashika-rana-7495a9394",
     },
     {
       name: "Mohit Bisht",
