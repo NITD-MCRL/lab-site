@@ -14,7 +14,7 @@ import im10 from "@/assets/im10.jpeg";
 import im11 from "@/assets/im11.jpeg";
 import im12 from "@/assets/im12.jpeg";
 import im13 from "@/assets/im13.jpeg";
-import im14 from "@/assets/im14.jpeg";
+import im15 from "@/assets/15.jpeg";
 
 const Gallery = () => {
   // All gallery images combined
@@ -33,7 +33,7 @@ const Gallery = () => {
     
     { src: im12 },
     { src: im13 },
-    { src: im14 },
+    { src: im15 },
   ];
 
   return (

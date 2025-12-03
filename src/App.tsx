@@ -129,16 +129,16 @@ const App = () => (
               {/* Main content area - takes remaining space */}
               <div className="flex-1 flex flex-col min-w-0">
                 {/* Header */}
-                <header className="sticky top-0 z-10 bg-background border-b px-4 py-3 flex items-center gap-2">
+                <header className="sticky top-0 z-10 bg-background border-b px-0 py-0 flex items-center gap-2">
                   <SidebarTrigger />
-                  <div className="flex items-center gap-3">
+                  {/* <div className="flex items-center gap-3">
                     <img 
                       src={logo}
                       alt="Climate Research Lab Logo"
                       className="h-10 w-10 object-contain"
                     />
                     <h1 className="text-lg font-semibold">Climate Lab for Intelligent Modeling Analytics Technology & Environment (CLIMATE)</h1>
-                  </div>
+                  </div> */}
                 </header>
                 
                 {/* Main content */}
