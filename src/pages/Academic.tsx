@@ -192,7 +192,7 @@ const Academic = () => {
           </CardContent>
         </Card>
       
-        <Card className="hover:shadow-lg transition-all duration-300">
+        {/* <Card className="hover:shadow-lg transition-all duration-300">
           <CardContent className="p-6">
             <div className="flex items-center gap-3 mb-4">
               <BookOpen className="h-6 w-6 text-primary" />
@@ -219,7 +219,7 @@ const Academic = () => {
               ))}
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
 
         {/* <Card className="hover:shadow-lg transition-all duration-300">
           <CardContent className="p-6">
