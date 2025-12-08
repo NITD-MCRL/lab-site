@@ -80,69 +80,60 @@ const ThesisGuided = () => {
   ];
 
   const mtechTheses = [
-    // {
-    //   code: "M1",
-    //   student: "Rahul Verma",
-    //   institution: "National Institute of Technology Delhi",
-    //   year: "2024",
-    //   level: "M.Tech",
-    //   description: "Machine Learning Approaches for Weather Pattern Classification",
-    //   status: "Completed"
-    // },
-    // {
-    //   code: "M2",
-    //   student: "Priya Singh",
-    //   institution: "National Institute of Technology Delhi",
-    //   year: "2023",
-    //   level: "M.Tech",
-    //   description: "Numerical Simulation of Storm Surge in Bay of Bengal",
-    //   status: "Completed"
-    // },
-    // {
-    //   code: "M3",
-    //   student: "Ankit Patel",
-    //   institution: "National Institute of Technology Delhi",
-    //   year: "2023",
-    //   level: "M.Tech",
-    //   description: "Data Analysis of Arctic Sea Ice Variations using Satellite Imagery",
-    //   status: "Completed"
-    // },
-    // {
-    //   code: "M4",
-    //   student: "Sonia Mehta",
-    //   institution: "National Institute of Technology Delhi",
-    //   year: "2022",
-    //   level: "M.Tech",
-    //   description: "Development of Coastal Erosion Prediction Model",
-    //   status: "Completed"
-    // },
-    // {
-    //   code: "M5",
-    //   student: "Vikram Joshi",
-    //   institution: "National Institute of Technology Delhi",
-    //   year: "2022",
-    //   level: "M.Tech",
-    //   description: "Statistical Analysis of Extreme Weather Events in Himalayan Region",
-    //   status: "Completed"
-    // },
-    // {
-    //   code: "M6",
-    //   student: "Deepika Nair",
-    //   institution: "National Institute of Technology Delhi",
-    //   year: "2024",
-    //   level: "M.Tech",
-    //   description: "Real-time Flood Prediction System using IoT Sensors",
-    //   status: "In Progress"
-    // },
-    // {
-    //   code: "M7",
-    //   student: "Rajesh Kumar",
-    //   institution: "National Institute of Technology Delhi",
-    //   year: "2024",
-    //   level: "M.Tech",
-    //   description: "Optimization of Renewable Energy Systems for Coastal Areas",
-    //   status: "In Progress"
-    // }
+    {
+        "code": "M1",
+        "student": "Purnima Garg",
+        "institution": "National Institute of Technology Delhi",
+        "year": "2024",
+        "level": "M.Tech",
+        "description": "Real-Time Traffic Sign Detection and Warning System Using Deep Learning for Vehicle Safety",
+        "status": "Completed"
+      },
+      {
+        "code": "M2",
+        "student": "Aman Shama",
+        "institution": "National Institute of Technology Delhi",
+        "year": "2024",
+        "level": "M.Tech",
+        "description": "Deep Learning Model for Monthly Rainfall Prediction in Metropolitan Cities in India",
+        "status": "Completed"
+      },
+      {
+        "code": "M3",
+        "student": "Keshav Jha",
+        "institution": "National Institute of Technology Delhi",
+        "year": "2024",
+        "level": "M.Tech",
+        "description": "Comparing Different Machine Learning and Deep Learning Models for Daily Rainfall Prediction at Kerala Point Location",
+        "status": "Completed"
+      },
+      {
+        "code": "M4",
+        "student": "Vishakha Rohila",
+        "institution": "National Institute of Technology Delhi",
+        "year": "2024",
+        "level": "M.Tech",
+        "description": "Sea Level Anomaly Prediction using Multivariate Stacked LSTM Model at Key Coastal Locations of India",
+        "status": "Completed"
+      },
+      {
+        "code": "M5",
+        "student": "Priyanka Sarkar",
+        "institution": "National Institute of Technology Delhi",
+        "year": "2024",
+        "level": "M.Tech",
+        "description": "Predicting Surface Temperature at Indian Port Using Machine Learning Model",
+        "status": "Completed"
+      },
+      {
+        "code": "M6",
+        "student": "Pranati Mishra",
+        "institution": "National Institute of Technology Delhi",
+        "year": "2024",
+        "level": "M.Tech",
+        "description": "Multi-Model Ensemble Learning Prediction of Surface Air Temperature in Four Major Metro Cities: A Stacking-Based Approach",
+        "status": "Completed"
+      }
   ];
 
   return (

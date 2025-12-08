@@ -13,8 +13,8 @@ import { Users,BookOpen } from "lucide-react";
 const menuItems = [
   { title: "Home", url: "/", icon: Home },
   { title: "About", url: "/about", icon: User },
-  { title: "Teaching", url: "/academic", icon: GraduationCap },
-  { title: "Theses Guided", url: "/thesis-guided", icon: BookOpen },
+  { title: "Teaching", url: "/academic", icon:BookOpen  },
+  { title: "Theses Guided", url: "/thesis-guided", icon: GraduationCap },
   { title: "Research", url: "/research", icon: Search },
   { title: "Projects", url: "/projects", icon: FolderKanban },
   { title: "Publications", url: "/publications", icon: FileText },
