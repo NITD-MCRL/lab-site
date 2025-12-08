@@ -9,11 +9,12 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
 } from "@/components/ui/sidebar";
-import { Users } from "lucide-react";
+import { Users,BookOpen } from "lucide-react";
 const menuItems = [
   { title: "Home", url: "/", icon: Home },
   { title: "About", url: "/about", icon: User },
-  { title: "Academic", url: "/academic", icon: GraduationCap },
+  { title: "Teaching", url: "/academic", icon: GraduationCap },
+  { title: "Theses Guided", url: "/thesis-guided", icon: BookOpen },
   { title: "Research", url: "/research", icon: Search },
   { title: "Projects", url: "/projects", icon: FolderKanban },
   { title: "Publications", url: "/publications", icon: FileText },

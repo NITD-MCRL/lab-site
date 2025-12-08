@@ -1,0 +1,315 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { GraduationCap, BookOpen, Users } from "lucide-react";
+
+const ThesisGuided = () => {
+  const phdTheses = [
+    {
+        "code": "6",
+        "student": "Vinita",
+        "institution": "National Institute of Technology Delhi",
+        "year": "2025",
+        "level": "PhD",
+        "description": "Mathematical Modeling of Shallow Water Waves Using Nwogu's 2D Nonlinear Coupled Boussinesq Type Equations with Improved Dispersion",
+        "status": "Completed"
+      },
+    {
+      code: "1",
+      student: "Divya Sardana",
+      institution: "National Institute of Technology Delhi",
+      year: "2023",
+      level: "PhD",
+      description: "Sea Level Rise Response to the Climate Modes, Model evaluation and projection of Sea Surface Height over global oceans",
+      status: "Completed"
+    },
+    {
+      code: "2",
+      student: "Prachi Priya",
+      institution: "National Institute of Technology Delhi",
+      year: "2023",
+      level: "PhD",
+      description: "Mathematical Modelling for Linear and Non-Linear Pressure Drop over Barriers in Partially Reflecting Arbitrary Shaped Port",
+      status: "Completed"
+    },
+    {
+      code: "3",
+      student: "Sukhwinder Kaur",
+      institution: "National Institute of Technology Delhi",
+      year: "2022",
+      level: "PhD",
+      description: "Influence of Natural Climate Variability and Projections of extreme Wind-Wave Climate in the Indian Ocean",
+      status: "Completed"
+    },
+    {
+      code: "4",
+      student: "Rupali",
+      institution: "National Institute of Technology Delhi",
+      year: "2021",
+      level: "PhD",
+      description: "Mathematical Modeling of Arbitrary Shaped Domain using Hybrid Element Method",
+      status: "Completed"
+    },
+    {
+      code: "5",
+      student: "Gulshan",
+      institution: "National Institute of Technology Delhi",
+      year: "2019",
+      level: "PhD",
+      description: "Mathematical Modeling of Multidirectional Random Waves by using Boundary Element Method in an Irregular Domain",
+      status: "Completed"
+    },
+    
+    // {
+    //   code: "6",
+    //   student: "Amit Kumar",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2024",
+    //   level: "PhD",
+    //   description: "Climate Change Impact Assessment on Coastal Infrastructure using AI Models",
+    //   status: "In Progress"
+    // },
+    // {
+    //   code: "7",
+    //   student: "Neha Sharma",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2024",
+    //   level: "PhD",
+    //   description: "Ocean-Atmosphere Coupling Mechanisms in Tropical Regions",
+    //   status: "In Progress"
+    // }
+  ];
+
+  const mtechTheses = [
+    // {
+    //   code: "M1",
+    //   student: "Rahul Verma",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2024",
+    //   level: "M.Tech",
+    //   description: "Machine Learning Approaches for Weather Pattern Classification",
+    //   status: "Completed"
+    // },
+    // {
+    //   code: "M2",
+    //   student: "Priya Singh",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2023",
+    //   level: "M.Tech",
+    //   description: "Numerical Simulation of Storm Surge in Bay of Bengal",
+    //   status: "Completed"
+    // },
+    // {
+    //   code: "M3",
+    //   student: "Ankit Patel",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2023",
+    //   level: "M.Tech",
+    //   description: "Data Analysis of Arctic Sea Ice Variations using Satellite Imagery",
+    //   status: "Completed"
+    // },
+    // {
+    //   code: "M4",
+    //   student: "Sonia Mehta",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2022",
+    //   level: "M.Tech",
+    //   description: "Development of Coastal Erosion Prediction Model",
+    //   status: "Completed"
+    // },
+    // {
+    //   code: "M5",
+    //   student: "Vikram Joshi",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2022",
+    //   level: "M.Tech",
+    //   description: "Statistical Analysis of Extreme Weather Events in Himalayan Region",
+    //   status: "Completed"
+    // },
+    // {
+    //   code: "M6",
+    //   student: "Deepika Nair",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2024",
+    //   level: "M.Tech",
+    //   description: "Real-time Flood Prediction System using IoT Sensors",
+    //   status: "In Progress"
+    // },
+    // {
+    //   code: "M7",
+    //   student: "Rajesh Kumar",
+    //   institution: "National Institute of Technology Delhi",
+    //   year: "2024",
+    //   level: "M.Tech",
+    //   description: "Optimization of Renewable Energy Systems for Coastal Areas",
+    //   status: "In Progress"
+    // }
+  ];
+
+  return (
+    <div className="max-w-6xl mx-auto animate-fade-in p-6">
+      <div className="mb-8 text-center">
+        <h1 className="text-4xl font-bold mb-3">Theses Guided</h1>
+        <p className="text-lg text-muted-foreground">
+          Doctoral and Master's theses supervised by Dr. Prashant Kumar
+        </p>
+      </div>
+
+      <div className="grid md:grid-cols-2 gap-8">
+        {/* PhD Theses Section */}
+        <Card className="hover:shadow-xl transition-all duration-300 border-primary/20">
+          <CardContent className="p-6">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="p-3 bg-primary/10 rounded-lg">
+                <GraduationCap className="h-7 w-7 text-primary" />
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold">PhD Theses Guided</h2>
+                <p className="text-sm text-muted-foreground">
+                  Doctoral research supervised
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              {phdTheses.map((thesis, index) => (
+                <div 
+                  key={index} 
+                  className="p-4 bg-muted/30 rounded-lg hover:bg-muted/50 transition-all border-l-4 border-primary"
+                >
+                  <div className="flex justify-between items-start mb-2">
+                    <div>
+                      <Badge variant="outline" className="mb-2">PhD</Badge>
+                      <h3 className="text-lg font-bold">{thesis.student}</h3>
+                      <p className="text-sm text-muted-foreground">{thesis.institution}</p>
+                    </div>
+                    <div className="text-right">
+                      <Badge variant={thesis.status === "Completed" ? "default" : "secondary"} className="mb-2">
+                        {thesis.status}
+                      </Badge>
+                      <p className="text-sm font-medium">{thesis.year}</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mt-2">{thesis.description}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-6 pt-4 border-t">
+              <div className="flex items-center justify-between text-sm text-muted-foreground">
+                <span>Total PhD Theses: {phdTheses.length}</span>
+                <span>Completed: {phdTheses.filter(t => t.status === "Completed").length}</span>
+                <span>In Progress: {phdTheses.filter(t => t.status === "In Progress").length}</span>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* M.Tech Theses Section */}
+        <Card className="hover:shadow-xl transition-all duration-300 border-blue-500/20">
+          <CardContent className="p-6">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="p-3 bg-blue-500/10 rounded-lg">
+                <BookOpen className="h-7 w-7 text-blue-500" />
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold">M.Tech Theses Guided</h2>
+                <p className="text-sm text-muted-foreground">
+                  Master's research supervised
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              {mtechTheses.map((thesis, index) => (
+                <div 
+                  key={index} 
+                  className="p-4 bg-blue-50/30 rounded-lg hover:bg-blue-50/50 transition-all border-l-4 border-blue-500"
+                >
+                  <div className="flex justify-between items-start mb-2">
+                    <div>
+                      <Badge variant="outline" className="mb-2 bg-blue-100 text-blue-800">M.Tech</Badge>
+                      <h3 className="text-lg font-bold">{thesis.student}</h3>
+                      <p className="text-sm text-muted-foreground">{thesis.institution}</p>
+                    </div>
+                    <div className="text-right">
+                      <Badge variant={thesis.status === "Completed" ? "default" : "secondary"} className="mb-2">
+                        {thesis.status}
+                      </Badge>
+                      <p className="text-sm font-medium">{thesis.year}</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mt-2">{thesis.description}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-6 pt-4 border-t">
+              <div className="flex items-center justify-between text-sm text-muted-foreground">
+                <span>Total M.Tech Theses: {mtechTheses.length}</span>
+                <span>Completed: {mtechTheses.filter(t => t.status === "Completed").length}</span>
+                <span>In Progress: {mtechTheses.filter(t => t.status === "In Progress").length}</span>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Summary Card */}
+      <Card className="mt-8 hover:shadow-lg transition-all duration-300">
+        <CardContent className="p-6">
+          <div className="flex items-center gap-3 mb-4">
+            <Users className="h-6 w-6 text-primary" />
+            <h2 className="text-xl font-bold">Supervision Summary</h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <h3 className="font-semibold text-lg">PhD Supervision</h3>
+              <div className="grid grid-cols-2 gap-3">
+                <div className="p-3 bg-primary/5 rounded-lg">
+                  <p className="text-2xl font-bold">{phdTheses.length}</p>
+                  <p className="text-sm text-muted-foreground">Total Theses</p>
+                </div>
+                <div className="p-3 bg-green-500/5 rounded-lg">
+                  <p className="text-2xl font-bold text-green-600">
+                    {phdTheses.filter(t => t.status === "Completed").length}
+                  </p>
+                  <p className="text-sm text-muted-foreground">Completed</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="space-y-2">
+              <h3 className="font-semibold text-lg">M.Tech Supervision</h3>
+              <div className="grid grid-cols-2 gap-3">
+                <div className="p-3 bg-blue-500/5 rounded-lg">
+                  <p className="text-2xl font-bold">{mtechTheses.length}</p>
+                  <p className="text-sm text-muted-foreground">Total Theses</p>
+                </div>
+                <div className="p-3 bg-green-500/5 rounded-lg">
+                  <p className="text-2xl font-bold text-green-600">
+                    {mtechTheses.filter(t => t.status === "Completed").length}
+                  </p>
+                  <p className="text-sm text-muted-foreground">Completed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-6 pt-4 border-t">
+            <p className="text-sm text-muted-foreground">
+              <span className="font-semibold">Total Theses Guided:</span> {phdTheses.length + mtechTheses.length} 
+              <span className="mx-2">•</span>
+              <span className="font-semibold">Completed:</span> {
+                phdTheses.filter(t => t.status === "Completed").length + 
+                mtechTheses.filter(t => t.status === "Completed").length
+              }
+            </p>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  );
+};
+
+export default ThesisGuided;

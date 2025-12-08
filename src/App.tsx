@@ -100,6 +100,7 @@ import Positions from "./pages/Positions";
 import Projects from "./pages/Projects";
 import Resources from "./pages/Resources";
 import Academic from "./pages/Academic";
+import ThesisGuided from "./pages/ThesisGuided";
 import Publications from "./pages/Publications";
 import InvitedTalks from "./pages/InvitedTalks";
 import Workshop from "./pages/Workshop";
@@ -152,6 +153,7 @@ const App = () => (
                     <Route path="/positions" element={<Positions />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/resources" element={<Resources />} />
+                    <Route path="/thesis-guided" element={<ThesisGuided />} />
                     <Route path="/academic" element={<Academic />} />
                     <Route path="/publications" element={<Publications />} />
                     <Route path="/invited-talks" element={<InvitedTalks />} />
