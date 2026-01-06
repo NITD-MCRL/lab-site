@@ -540,7 +540,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Microscope, BookOpen, Users, ChevronLeft, ChevronRight, Megaphone, Globe, Linkedin, Mail, Heart, ExternalLink, Github } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import bg from "@/assets/bg.jpg";
+import bg from "@/assets/bg2.jpg";
 import { MapPin } from "lucide-react";
 import logo from "@/assets/logo.png";
 
@@ -744,7 +744,50 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
 
+        <div className="w-full border-y border-primary/20 bg-gradient-to-r from-primary/5 via-background to-primary/5">
+  <div className="max-w-screen-2xl mx-auto">
+    <div className="relative p-4">
+      <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-primary via-primary/80 to-primary"></div>
+      
+      <div className="flex items-center gap-6 pl-4">
+        <div className="flex items-center gap-3 shrink-0">
+          <div className="relative bg-primary/10 p-2.5 rounded-lg">
+            <Megaphone className="h-4.5 w-4.5 text-primary" />
+            <div className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
+          </div>
+          <div>
+            <span className="text-sm font-bold text-primary block">NEWS & UPDATES</span>
+            <span className="text-xs text-muted-foreground">Latest announcements</span>
+          </div>
+        </div>
+        
+        <div className="flex-1 relative overflow-hidden h-7">
+          <div className="animate-marquee whitespace-nowrap flex items-center h-full">
+            {newsItems.map((item, index) => (
+              <Link
+                key={item.id}
+                to={item.link}
+                className="inline-flex items-center mx-8 text-sm font-medium text-foreground hover:text-primary transition-colors hover:underline"
+              >
+                <span className="mr-2 text-primary">›</span>
+                {item.text}
+              </Link>
+            ))}
+          </div>
+        </div>
+        
+        <Button asChild variant="outline" size="sm" className="h-8 px-4 text-sm shrink-0 border-primary/30">
+          <Link to="/positions" className="flex items-center gap-2">
+            View All
+            <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
+        </Button>
+      </div>
+    </div>
+  </div>
+</div>
         {/* Featured Publications Slider */}
         <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[500px] group">
           {/* Slides */}
