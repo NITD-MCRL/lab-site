@@ -603,12 +603,12 @@ const Home = () => {
   const newsItems = [
     {
       id: 1,
-      text: "🎓 New PhD Position Available - Climate Modeling Research",
+      text: "🎓 New PhD Position Available ",
       link: "/positions#phd-climate-modeling"
     },
     {
       id: 2,
-      text: "🔬 Postdoctoral Researcher Opening - Ocean Dynamics Study",
+      text: "🔬 Postdoctoral Researcher Opening ",
       link: "/positions#postdoc-ocean-dynamics"
     },
     {

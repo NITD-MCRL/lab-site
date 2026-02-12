@@ -104,7 +104,28 @@ const Team = () => {
 
     // PhD Students - Ordered by seniority (earliest start year first)
     
-    
+    { 
+      name: "Ramakant Prasad",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Wind-Wave Climate Change", 
+      email: "ramakant.prasad@nitdelhi.ac.in",
+      photo: Ramakant,
+      resumeUrl: null, // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/ramakant-prasad-a42469a0/",
+      showResume: false, // Add this flag
+    },
+    {   
+      name: "Suresh Yadav",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Climate Change impacts on Economy", 
+      email: "sureshyadavirs@gmail.com",
+      photo: Suresh,
+      resumeUrl: null, // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/sureshyadavirs/",
+      showResume: false, // Add this flag
+    },
     {
       name: "Rishabh Kushwaha",
       program: "PhD Research Scholar",
@@ -146,28 +167,7 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/shruti-gulia-0227b0185/",
       showResume: false, // Add this flag
     },
-    { 
-      name: "Ramakant Prasad",
-      program: "PhD Research Scholar",
-      year: "2022-Present",
-      researchArea: "Wind-Wave Climate Change", 
-      email: "ramakant.prasad@nitdelhi.ac.in",
-      photo: Ramakant,
-      resumeUrl: null, // Set to null or undefined
-      linkedinUrl: "https://www.linkedin.com/in/ramakant-prasad-a42469a0/",
-      showResume: false, // Add this flag
-    },
-    {   
-      name: "Suresh Yadav",
-      program: "PhD Research Scholar",
-      year: "2022-Present",
-      researchArea: "Climate Change impacts on Economy", 
-      email: "sureshyadavirs@gmail.com",
-      photo: Suresh,
-      resumeUrl: null, // Set to null or undefined
-      linkedinUrl: "https://www.linkedin.com/in/sureshyadavirs/",
-      showResume: false, // Add this flag
-    },
+    
     
    
     {

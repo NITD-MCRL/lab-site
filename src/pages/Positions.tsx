@@ -6,7 +6,7 @@ import { Briefcase, Mail } from "lucide-react";
 const Positions = () => {
   const positions = [
     {
-      title: "PhD Position - Climate Modeling",
+      title: "PhD Position",
       type: "Full-time",
       deadline: "March 31, 2025",
       description: "Seeking a motivated PhD student to work on advanced climate modeling techniques and Arctic climate change. The position includes full funding for 4 years.",
@@ -19,7 +19,7 @@ const Positions = () => {
       status: "Open"
     },
     {
-      title: "Postdoctoral Researcher - Ocean Dynamics",
+      title: "Postdoctoral Researcher",
       type: "Full-time",
       deadline: "April 15, 2025",
       description: "Postdoctoral position available to study ocean-atmosphere interactions and their role in climate variability. 2-year appointment with possibility of extension.",

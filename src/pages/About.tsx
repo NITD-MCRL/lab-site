@@ -212,7 +212,7 @@ const About = () => {
 
             <div className="md:col-span-2">
               <h2 className="text-3xl font-bold mb-2">Dr Prashant Kumar</h2>
-              <p className="text-xl text-primary mb-6">Controller of Examination & Associate Professor - Applied Sciences</p>
+              <p className="text-xl text-primary mb-6">Associate Professor - Mathematics Department (Applied Sciences)</p>
               
               <div className="space-y-6">
                 <div>

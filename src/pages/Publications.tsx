@@ -946,41 +946,41 @@ const Publications = () => {
         year: 2013,
         link: "https://doi.org/10.1016/j.compfluid.2013.09.020"
       },
-      {
-        title: "Role of equilibrium plasma flow on damping of slow MHD waves",
-        authors: "Kumar N.;Kumar P.;Kumar A.;Chauhan R.",
-        venue: "Indian Journal of Physics",
-        year: 2011,
-        link: "https://doi.org/10.1007/s12648-011-0191-7"
-      },
-      {
-        title: "Erratum: \"Scattering of surface and internal waves by rectangular dikes\"",
-        authors: "Kumar P.S.;Bhattacharjee J.;Sahoo T.",
-        venue: "Journal of Offshore Mechanics and Arctic Engineering",
-        year: 2008,
-        link: "N/A"
-      },
-      {
-        title: "Retraction: “scattering of surface and internal waves by rectangular dikes”",
-        authors: "Kumar P.S.;Bhattacharjee J.;Sahoo T.",
-        venue: "Journal of Offshore Mechanics and Arctic Engineering",
-        year: 2008,
-        link: "https://doi.org/10.1115/1.2901917"
-      },
-      {
-        title: "Wave interaction with a flexible porous breakwater in a two-layer fluid",
-        authors: "Kumar P.S.;Sahoo T.",
-        venue: "Journal of Engineering Mechanics",
-        year: 2006,
-        link: "https://doi.org/10.1061/(ASCE)0733-9399(2006)132:9(1007)"
-      },
-      {
-        title: "Coronal heating by MHD waves",
-        authors: "Kumar N.;Kumar P.;Singh S.",
-        venue: "Astronomy and Astrophysics",
-        year: 2006,
-        link: "https://doi.org/10.1051/0004-6361:20054141"
-      }
+      // {
+      //   title: "Role of equilibrium plasma flow on damping of slow MHD waves",
+      //   authors: "Kumar N.;Kumar P.;Kumar A.;Chauhan R.",
+      //   venue: "Indian Journal of Physics",
+      //   year: 2011,
+      //   link: "https://doi.org/10.1007/s12648-011-0191-7"
+      // },
+      // {
+      //   title: "Erratum: \"Scattering of surface and internal waves by rectangular dikes\"",
+      //   authors: "Kumar P.S.;Bhattacharjee J.;Sahoo T.",
+      //   venue: "Journal of Offshore Mechanics and Arctic Engineering",
+      //   year: 2008,
+      //   link: "N/A"
+      // },
+      // {
+      //   title: "Retraction: “scattering of surface and internal waves by rectangular dikes”",
+      //   authors: "Kumar P.S.;Bhattacharjee J.;Sahoo T.",
+      //   venue: "Journal of Offshore Mechanics and Arctic Engineering",
+      //   year: 2008,
+      //   link: "https://doi.org/10.1115/1.2901917"
+      // },
+      // {
+      //   title: "Wave interaction with a flexible porous breakwater in a two-layer fluid",
+      //   authors: "Kumar P.S.;Sahoo T.",
+      //   venue: "Journal of Engineering Mechanics",
+      //   year: 2006,
+      //   link: "https://doi.org/10.1061/(ASCE)0733-9399(2006)132:9(1007)"
+      // },
+      // {
+      //   title: "Coronal heating by MHD waves",
+      //   authors: "Kumar N.;Kumar P.;Singh S.",
+      //   venue: "Astronomy and Astrophysics",
+      //   year: 2006,
+      //   link: "https://doi.org/10.1051/0004-6361:20054141"
+      // }
     ];
 
   const handleCardClick = (link: string) => {
