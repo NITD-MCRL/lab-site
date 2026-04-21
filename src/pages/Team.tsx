@@ -33,74 +33,6 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
 const Team = () => {
   const students = [
-    
-    // M.Tech Students - Ordered by seniority (2024 batch first, then 2025 batch)
-    // M.Tech 2024-2026 Batch
-    {
-      name: "Viaan Sharma",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Cyclone-Induced Rainfall Prediction | AI Researcher",
-      email: "242432009@nitdelhi.ac.in",
-      photo: viaan,
-      resumeUrl: "/resumes/242432009_Viaan_Sharma.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/",
-    },
-    {
-      name: "Ankit Kumar",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Cloudburst Analysis | ML Researcher",
-      email: "242432002@nitdelhi.ac.in",
-      photo: ankit,
-      resumeUrl: "/resumes/Ankit.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/ankitx55",
-    },
-    
-    {
-      name: "Dushyant Sharma",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Climate Data Analysis | ML Researcher",
-      email: "242432005@nitdelhi.ac.in",
-      photo: dushyant,
-      resumeUrl: "/resumes/DushyantSharma.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/dushyant-sharma-71588822b",
-    },
-    
-    
-    {
-      name: "Shweta Jain",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "AI Researcher",
-      email: "242432008@nitdelhi.ac.in",
-      photo: shweta,
-      resumeUrl: "/resumes/Shweta.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/shweta-jain-a4aaa1246/",
-    },
-    
-    {
-      name: "Dibyadarshini Maharatha",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Climate Data Analytics",
-      email: "242432003@nitdelhi.ac.in",
-      photo: dibya,
-      resumeUrl: "/resumes/Dibyadarshini.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/dibya-darshini-maharatha-719989234/",
-    },
-    {
-      name: "Shanthiprasad Jain",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Machine Learning in Climate",
-      email: "242432007@nitdelhi.ac.in",
-      photo: shanti,
-      resumeUrl: "/resumes/Shanthiprasad.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/shanthiprasad-jain-02557a1b8",
-    },
-
 
     // PhD Students - Ordered by seniority (earliest start year first)
     
@@ -115,6 +47,27 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/ramakant-prasad-a42469a0/",
       showResume: false, // Add this flag
     },
+    {
+      name: "Rishabh Kushwaha",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Heat Stress and Marine heatwaves", 
+      email: "rishabh@nitdelhi.ac.in",
+      photo: Rishabh,
+      resumeUrl: "/resumes/Rishabh.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/rishabh-kushwaha-a89620256/",
+    },
+    {
+      name: "Shruti",
+      program: "PhD Research Scholar",
+      year: "2022-Present",
+      researchArea: "Air Pollution Dynamics and it's associated climate feedback mechanism over India",
+      email: "shrutigulia@nitdelhi.ac.in",
+      photo: Shruti,
+      resumeUrl: null, // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/shruti-gulia-0227b0185/",
+      showResume: false, // Add this flag
+    },
     {   
       name: "Suresh Yadav",
       program: "PhD Research Scholar",
@@ -125,16 +78,6 @@ const Team = () => {
       resumeUrl: null, // Set to null or undefined
       linkedinUrl: "https://www.linkedin.com/in/sureshyadavirs/",
       showResume: false, // Add this flag
-    },
-    {
-      name: "Rishabh Kushwaha",
-      program: "PhD Research Scholar",
-      year: "2022-Present",
-      researchArea: "Heat Stress and Marine heatwaves", 
-      email: "rishabh@nitdelhi.ac.in",
-      photo: Rishabh,
-      resumeUrl: "/resumes/Rishabh.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/rishabh-kushwaha-a89620256/",
     },
     {
       name: "Anshu Yadav",
@@ -155,17 +98,6 @@ const Team = () => {
       photo: kamlesh,
       resumeUrl: "/resumes/Kamlesh.pdf",
       linkedinUrl: "https://www.linkedin.com/in/kamlesh-kumar-saha-b91b0437a/",
-    },
-    {
-      name: "Shruti",
-      program: "PhD Research Scholar",
-      year: "2022-Present",
-      researchArea: "Air Pollution Dynamics and it's associated climate feedback mechanism over India",
-      email: "shrutigulia@nitdelhi.ac.in",
-      photo: Shruti,
-      resumeUrl: null, // Set to null or undefined
-      linkedinUrl: "https://www.linkedin.com/in/shruti-gulia-0227b0185/",
-      showResume: false, // Add this flag
     },
     
     
@@ -231,16 +163,6 @@ const Team = () => {
       linkedinUrl: " ",
     },
     {
-      name: "Rashika Rana",
-      program: "PhD Research Scholar",
-      year: "2025-Present",
-      researchArea: "Statistical Analysis of Climate and Economic Data",
-      email: "rashikarana@nitdelhi.ac.in",
-      photo: Rashika,
-      resumeUrl: "/resumes/Rashika.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/rashika-rana-7495a9394",
-    },
-    {
       name: "Mohit Bisht",
       program: "PhD Research Scholar",
       year: "2025-Present",
@@ -251,6 +173,16 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/mohitbisht54321/",
     },
     {
+      name: "Rashika Rana",
+      program: "PhD Research Scholar",
+      year: "2025-Present",
+      researchArea: "Statistical Analysis of Climate and Economic Data",
+      email: "rashikarana@nitdelhi.ac.in",
+      photo: Rashika,
+      resumeUrl: "/resumes/Rashika.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/rashika-rana-7495a9394",
+    },
+    {
       name: "SHIKHA MAURYA",
       program: "PhD Research Scholar",
       year: "2025-Present",
@@ -259,6 +191,71 @@ const Team = () => {
       photo: Shikha,
       resumeUrl: "/resumes/Shikha.pdf",
       linkedinUrl: "https://www.linkedin.com/in/shikha-maurya-895856293",
+    },
+    
+    // M.Tech Students - Ordered by seniority (2024 batch first, then 2025 batch)
+    // M.Tech 2024-2026 Batch
+    {
+      name: "Ankit Kumar",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Cloudburst Analysis | ML Researcher",
+      email: "242432002@nitdelhi.ac.in",
+      photo: ankit,
+      resumeUrl: "/resumes/Ankit.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/ankitx55",
+    },
+    
+    {
+      name: "Dibyadarshini Maharatha",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Climate Data Analytics",
+      email: "242432003@nitdelhi.ac.in",
+      photo: dibya,
+      resumeUrl: "/resumes/Dibyadarshini.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/dibya-darshini-maharatha-719989234/",
+    },
+    {
+      name: "Dushyant Sharma",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Climate Data Analysis | ML Researcher",
+      email: "242432005@nitdelhi.ac.in",
+      photo: dushyant,
+      resumeUrl: "/resumes/DushyantSharma.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/dushyant-sharma-71588822b",
+    },
+    {
+      name: "Shanthiprasad Jain",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Machine Learning in Climate",
+      email: "242432007@nitdelhi.ac.in",
+      photo: shanti,
+      resumeUrl: "/resumes/Shanthiprasad.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/shanthiprasad-jain-02557a1b8",
+    },
+    {
+      name: "Shweta Jain",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "AI Researcher",
+      email: "242432008@nitdelhi.ac.in",
+      photo: shweta,
+      resumeUrl: "/resumes/Shweta.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/shweta-jain-a4aaa1246/",
+    },
+    
+    {
+      name: "Viaan Sharma",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Cyclone-Induced Rainfall Prediction | AI Researcher",
+      email: "242432009@nitdelhi.ac.in",
+      photo: viaan,
+      resumeUrl: "/resumes/242432009_Viaan_Sharma.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/",
     },
 
     
@@ -274,16 +271,6 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/bharat-choudhary-iitm/",
     },
     {
-      name: "Khushi Singh",
-      program: "M.Tech Research Scholar",
-      year: "2025-2027",
-      researchArea: "Machine Learning",
-      email: "Khushi.anuanand203@gmail.com",
-      photo: Khushi,
-      resumeUrl: "/resumes/Khushi.pdf",
-      linkedinUrl: "https://in.linkedin.com/in/khushi-singh-323133234"
-    },
-    {
       name: "Bhishek Kumar",
       program: "M.Tech Research Scholar",
       year: "2025-2027",
@@ -294,14 +281,14 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/bhishek-kumar-958b14208/",
     },
     {
-      name: "Vedang Jamenis",
+      name: "Khushi Singh",
       program: "M.Tech Research Scholar",
       year: "2025-2027",
-      researchArea: "Machine Learning, Artificial Intelligence, Graph Theory, Computer Science",
-      email: "252432012@nitdelhi.ac.in",
-      photo: Vedang,
-      resumeUrl: "/resumes/Vedang.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/vedang-jamenis-55539a170/",
+      researchArea: "Machine Learning",
+      email: "Khushi.anuanand203@gmail.com",
+      photo: Khushi,
+      resumeUrl: "/resumes/Khushi.pdf",
+      linkedinUrl: "https://in.linkedin.com/in/khushi-singh-323133234"
     },
     {
       name: "Tanuj Joshi",
@@ -312,6 +299,16 @@ const Team = () => {
       photo: Tanuj,
       resumeUrl: "/resumes/Tanuj.pdf",
       linkedinUrl: "https://in.linkedin.com/in/tanuj-joshi-433815200",
+    },
+    {
+      name: "Vedang Jamenis",
+      program: "M.Tech Research Scholar",
+      year: "2025-2027",
+      researchArea: "Machine Learning, Artificial Intelligence, Graph Theory, Computer Science",
+      email: "252432012@nitdelhi.ac.in",
+      photo: Vedang,
+      resumeUrl: "/resumes/Vedang.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/vedang-jamenis-55539a170/",
     },
     {
       name: "Vanagarouthu Sree Chaitran",
