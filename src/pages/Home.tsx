@@ -89,12 +89,12 @@
 //     },
 //     {
 //       image: research1,
-//       title: "Assessing the Impact of Climate Modes on Extreme Arctic Sea Ice Using Reanalysis Data",
-//       description: "Investigating how major climate patterns like ENSO and NAO influence extreme Arctic sea ice events using comprehensive reanalysis datasets. Our work improves polar climate predictions and understanding of cryosphere-atmosphere interactions.",
+//       title: "Indian Ocean Sea Surface Temperature Modulates the Arctic Oscillation: A Multi‐Model Assessment Using CMIP6",
+//       description: "This study examines how sea surface temperature variability across Indian Ocean regions influences the Arctic Oscillation, highlighting a strong wintertime link with the Southern Indian Ocean and notable inter-model variability in CMIP6 simulations.",
 //       buttonText: "Read Publication2",
-//       buttonLink: "https://rmets.onlinelibrary.wiley.com/doi/10.1002/joc.70121",
+//       buttonLink: "https://www.researchgate.net/publication/399560125_Indian_Ocean_Sea_Surface_Temperature_Modulates_the_Arctic_Oscillation_A_Multi-Model_Assessment_Using_CMIP6",
 //       journal: "International Journal of Climatology",
-//       year: "2025",
+//       year: "2026",
 //       researchName: "Arctic Climate Dynamics"
 //     },
 //     {
@@ -627,33 +627,33 @@ const Home = () => {
     
     {
       image: research2,
-      title: "Wind-wave climate changes and their impacts",
-      description: "Investigating global changes in ocean wind-wave patterns and their profound impacts on coastal erosion, marine ecosystems, and coastal infrastructure worldwide. Our research focuses on understanding climate-driven variations in wave energy and their consequences for coastal vulnerability.",
+      title: "Predicting extreme storm surge along the Indian coastline using a physics-guided machine learning ensemble",
+      description: "A physics-guided ML framework was developed to improve storm surge forecasting along India’s coastline, outperforming traditional models with higher accuracy and reliability for extreme events. By integrating physical constraints and ensemble learning, the model remains interpretable and confirms key dynamics like the inverse barometer effect.",
       buttonText: "Read Publication 1",
-      buttonLink: "https://www.nature.com/articles/s43017-023-00502-0",
-      journal: "Nature Reviews Earth & Environment",
-      year: "2024",
-      researchName: "Wind-Wave Climate Pattern"
+      buttonLink: "https://www.sciencedirect.com/science/article/pii/S0029801826012552#fig5",
+      journal: "Ocean Engineering",
+      year: "2026",
+      researchName: "Coastal Wave Climate Analysis & Prediction"
     },
     {
       image: research1,
-      title: "Assessing the Impact of Climate Modes on Extreme Arctic Sea Ice Using Reanalysis Data",
-      description: "Investigating how major climate patterns like ENSO and NAO influence extreme Arctic sea ice events using comprehensive reanalysis datasets. Our work improves polar climate predictions and understanding of cryosphere-atmosphere interactions.",
+      title: "Indian Ocean Sea Surface Temperature Modulates the Arctic Oscillation: A Multi‐Model Assessment Using CMIP6",
+      description: "This study examines how sea surface temperature variability across Indian Ocean regions influences the Arctic Oscillation, highlighting a strong wintertime link with the Southern Indian Ocean and notable inter-model variability in CMIP6 simulations.",
       buttonText: "Read Publication 2",
-      buttonLink: "https://rmets.onlinelibrary.wiley.com/doi/10.1002/joc.70121",
+      buttonLink: "https://www.researchgate.net/publication/399560125_Indian_Ocean_Sea_Surface_Temperature_Modulates_the_Arctic_Oscillation_A_Multi-Model_Assessment_Using_CMIP6",
       journal: "International Journal of Climatology",
-      year: "2025",
+      year: "2026",
       researchName: "Arctic Climate Dynamics"
     },
     {
       image: research4,
-      title: "Assessment and future projections of storm surge using CMIP6 models in the Indo-Pacific region",
-      description: "Evaluating current storm surge risks and projecting future coastal flooding scenarios across the Indo-Pacific using state-of-the-art CMIP6 climate models. Our research helps coastal communities prepare for climate change impacts.",
+      title: "Wind-wave climate changes and their impacts",
+      description: "Investigating global changes in ocean wind-wave patterns and their profound impacts on coastal erosion, marine ecosystems, and coastal infrastructure worldwide. Our research focuses on understanding climate-driven variations in wave energy and their consequences for coastal vulnerability.",
       buttonText: "Read Publication 3",
       buttonLink: "https://www.sciencedirect.com/science/article/pii/S1463500325000630?via%3Dihub",
-      journal: "Ocean Modelling",
-      year: "2025",
-      researchName: "Coastal Wave Climate Analysis & Prediction"
+      journal: "Nature Reviews Earth & Environment",
+      year: "2024",
+      researchName: "Wind-Wave Climate Pattern" 
     },
     {
       image: research7,
@@ -667,20 +667,20 @@ const Home = () => {
     },
     {
       image: research6,
-      title: "Extreme wave height response to climate modes and its association with tropical cyclones over the Indo-Pacific Ocean",
-      description: "Assessing climate mode effects on dangerous wave conditions and their correlation with tropical cyclones. Our research enhances coastal risk prediction and marine safety across vulnerable regions.",
+      title: "Assessment of projected changes in mean and extreme wave power across the Indian coastal sectors under high-emission climate scenarios",
+      description: "Future climate scenarios indicate shifting and more variable wave power along India’s coasts, with select locations like Gujarat and island regions retaining strong potential for reliable wave energy despite overall declines.",
       buttonText: "Read Publication 5",
       buttonLink: "https://www.sciencedirect.com/science/article/pii/S0029801824001264?via%3Dihub",
-      journal: "Ocean Engineering",
-      year: "2024",
-      researchName: "Tropical Cyclone Analysis"
+      journal: "Ocean Modelling",
+      year: "2025",
+      researchName: "Coastal Wave Climate Analysis & Prediction"
     },
     {
       image: research5,
       title: "Global future heat stress projections: Regional variations of Humidex changes from high-resolution CMIP6 models",
       description: "Predicting future heat stress impacts globally with fine-scale regional Humidex analysis using advanced CMIP6 climate projections. Our work identifies vulnerable populations and informs adaptation strategies.",
       buttonText: "Read Publication 6",
-      buttonLink: "https://www.sciencedirect.com/science/article/pii/S0169809525004594?via%3Dihub",
+      buttonLink: "https://www.sciencedirect.com/science/article/pii/S1463500325000952",
       journal: "Atmospheric Research",
       year: "2025",
       researchName: "Extreme Heat Stress Analysis"
@@ -830,8 +830,8 @@ const Home = () => {
                       </div>
                     )}
                     <p className="text-base text-muted-foreground mb-6 animate-fade-in leading-relaxed flex-grow" style={{ animationDelay: '0.2s' }}>
-//                       {slide.description}
-//                     </p>
+                       {slide.description}
+                     </p>
                     <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
                       <Button asChild size="lg" className="gap-2">
                         <a 

@@ -326,10 +326,67 @@ const Publications = () => {
       {
         title: "Global future heat stress projections: Regional variations of Humidex changes from high-resolution CMIP6 models",
         authors: "Kushwaha R.;Kumar P.;Hisaki Y.",
-        venue: "Atmospheric Research",
-        year: 2026,
-        link: "https://doi.org/10.1016/j.atmosres.2025.108367"
+        venue: "Atmospheric Research, Volume 327 DOI:10.1016/j.atmosres.2025.108367",
+        year: 2026,
+        link: "https://www.sciencedirect.com/science/article/pii/S0169809525004594?via%3Dihub"
       },
+      {
+        title: "Intelligent Routing for Smart and Sustainable Transportation: Multi-modal Real-Time Data Based Deep Reinforcement Learning Framework",
+        authors: "Shweta Jain;Rajni;Prashant Kumar",
+        venue: "IEEE EPSCON 2026",
+        year: 2026,
+        link: "https://link.springer.com/chapter/10.1007/978-3-032-23241-0_8"
+      },
+      {
+        title: "Predicting extreme storm surge along the Indian coastline using a physics-guided machine learning ensemble",
+        authors: "Arju;Prashant Kumar;Bahareh Kamranzad;T.M. Balakrishnan Nair",
+        venue: "Ocean Engineering",
+        year: 2026,
+        link: "https://www.sciencedirect.com/science/article/pii/S0029801826012552"
+      },
+      {
+        title: "Indian Ocean Sea Surface Temperature Modulates the Arctic Oscillation: A Multi‐Model Assessment Using CMIP6",
+        authors: "Anushka Sunil;Prashant Kumar;Anurag Singh;Rajni",
+        venue: "International Journal of Climatology",
+        year: 2026,
+        link: "https://www.researchgate.net/publication/399560125_Indian_Ocean_Sea_Surface_Temperature_Modulates_the_Arctic_Oscillation_A_Multi-Model_Assessment_Using_CMIP6"
+      },
+      {
+        title: "Role of Major Climate Modes on Arctic Sea Ice Dynamics",
+        authors: "Anushka Sunil;Prashant Kumar;Avinash Kumar",
+        venue: "Sea-Ice Modelling and Observations",
+        year: 2025,
+        link: "https://www.researchgate.net/publication/398228415_Role_of_Major_Climate_Modes_on_Arctic_Sea_Ice_Dynamics"
+      },
+      {
+        title: "Seasonal Influence of ENSO, IOD, and MJO on Heat Index -Derived Heat Stress across India",
+        authors: "Rishabh Kushwaha;Prashant Kumar",
+        venue: "Conference Poster",
+        year: 2025,
+        link: "Seasonal Influence of ENSO, IOD, and MJO on Heat Index -Derived Heat Stress across India"
+      },
+      {
+        title: "Predicting Surface Temperature at Indian Ports Using Machine Learning Models",
+        authors: "Sarkar P.;Kumar P.",
+        venue: "2025 Global Conference in Emerging Technology Ginotech 2025",
+        year: 2025,
+        link: "https://ieeexplore.ieee.org/document/11077004"
+      },
+      {
+        title: "Predicting Wave Power Along India’s Coast",
+        authors: "Sarthak Tilwankar;Prashant Kumar;Amit Mahajan",
+        venue: "WCONF",
+        year: 2025,
+        link: "https://www.researchgate.net/publication/397695057_Predicting_Wave_Power_Along_India's_Coast"
+      },
+      {
+        title: "Mathematical Modeling of Two-Dimensional Depth Integrated Nonlinear Coupled Boussinesq-Type Equations for Shallow-Water Waves with Ship-Born Generation Waves in Coastal Regions",
+        authors: "Vinita;Prashant Kumar",
+        venue: "Journal of Marine Science and Engineering",
+        year: 2025,
+        link: "https://www.researchgate.net/publication/389840879_Mathematical_Modeling_of_Two-Dimensional_Depth_Integrated_Nonlinear_Coupled_Boussinesq-Type_Equations_for_Shallow-Water_Waves_with_Ship-Born_Generation_Waves_in_Coastal_Regions"
+      },
+      //////// old
       {
         title: "Computational Analysis of Visakhapatnam Port with Variable Bathymetry using SBEM",
         authors: "Priya P.;Kumar P.;Prasad R.;Om D.;Rajni R.",
@@ -1032,7 +1089,7 @@ const Publications = () => {
           <div className="flex flex-col items-center">
             {/* <BookOpen className="h-6 w-6 text-primary mt-1 flex-shrink-0" /> */}
             <div className="mt-2 text-sm font-bold text-primary bg-primary/10 px-2 py-1 rounded-full min-w-6 text-center">
-              {index + 1}
+              {publications.length - index}
             </div>
           </div>
           <div className="flex-grow">
