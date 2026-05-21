@@ -4,6 +4,11 @@ import { Badge } from "@/components/ui/badge";
 const Research = () => {
   const researchAreas = [
     {
+      title: "Wave Power",
+      description: "Investigating wind-wave interactions and spectral wave dynamics to understand coastal wave climate variability, extreme events, and marine energy potential.",
+      topics: ["Spectral Wave Dynamics", "Coastal Wave Forecasting", "Ocean Wave Energy Assessment", "Wave Spectrum Modeling", "Nearshore Wave Transformation",]
+    },
+    {
       title: "Wind-Wave Climate",
       description: "Investigating the complex interactions between atmospheric winds and ocean waves to understand wave climate variability and its impacts on coastal systems.",
       topics: ["Wave Modeling", "Spectral Analysis", "Wave Energy Assessment", "SWAN Modeling", "Wave Climate Projections"]

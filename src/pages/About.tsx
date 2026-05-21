@@ -110,7 +110,7 @@ const About = () => {
     "Coastal Wave Climate Analysis",
     "Arctic Sea Ice Variations",
     "Climate Prediction using AI Techniques",
-    "Tropical Cyclone Prediction & Analysis"
+    "Tropical Cyclone Prediction & Analysis",
   ];
 
   const timelineData = [

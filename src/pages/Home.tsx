@@ -553,6 +553,7 @@ import research4 from "@/assets/research-4.jpeg";
 import research5 from "@/assets/research-5.jpeg";
 import research6 from "@/assets/research-6.jpeg";
 import research7 from "@/assets/research-7.jpeg";
+import research8 from "@/assets/research-8.jpeg";
 // const labHero = "https://placehold.co/1200x300/374151/ffffff?text=Lab+Hero+Image"; 
 // const professorImage = "https://placehold.co/400x300/1e40af/ffffff?text=Dr+Kumar";
 // const research1 = "https://placehold.co/800x400/059669/ffffff?text=Arctic+Sea+Ice+Study";
@@ -684,6 +685,16 @@ const Home = () => {
       journal: "Atmospheric Research",
       year: "2025",
       researchName: "Extreme Heat Stress Analysis"
+    },
+    {
+      image: research8,
+      title: "Assessing wave energy spectra at major Indian ports using the dual reciprocity boundary element technique",
+      description: "This study investigates seasonal spectral wave energy variability across major Indian ports using advanced numerical wave modeling to support coastal energy planning and marine sustainability.",
+      buttonText: "Read Publication 7",
+      buttonLink: "https://www.sciencedirect.com/science/article/pii/S0029801825022073?via%3Dihub",
+      journal: "Ocean Engineering",
+      year: "2025",
+      researchName: "Water Wave Resonance"
     },
   ];
 
