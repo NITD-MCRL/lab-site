@@ -15,6 +15,7 @@ import im11 from "@/assets/im11.jpeg";
 import im12 from "@/assets/im12.jpeg";
 import im13 from "@/assets/im13.jpeg";
 import im15 from "@/assets/15.jpeg";
+import im16 from "@/assets/im16.jpg";
 
 const Gallery = () => {
   // All gallery images combined
@@ -34,6 +35,7 @@ const Gallery = () => {
     { src: im12 },
     { src: im13 },
     { src: im15 },
+    { src: im16 }
   ];
 
   return (
@@ -85,6 +87,7 @@ const Gallery = () => {
                       src={image.src}
                       alt={`Gallery image ${index + 1}`}
                       className="max-h-full max-w-full object-contain rounded-lg"
+                      style={{ maxHeight: "500px" }}
                     />
                   </div>
                 </div>

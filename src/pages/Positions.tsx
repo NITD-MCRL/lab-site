@@ -43,6 +43,18 @@ const Positions = () => {
         "Ability to work independently"
       ],
       status: "Open"
+    },
+    {
+      title: "Summer Internship",
+      type: "Part-time",
+      deadline: "23 May 2026",
+      description: "Summer Internship for students interested in climate data analysis and renewable energy systems.",
+      requirements: [
+        "Background in environmental science or engineering",
+        "Data analysis skills",
+        "Ability to work independently"
+      ],
+      status: "Open"
     }
   ];
 

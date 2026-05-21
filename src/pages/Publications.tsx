@@ -361,9 +361,9 @@ const Publications = () => {
       {
         title: "Seasonal Influence of ENSO, IOD, and MJO on Heat Index -Derived Heat Stress across India",
         authors: "Rishabh Kushwaha;Prashant Kumar",
-        venue: "Conference Poster",
+        venue: "SCALE",
         year: 2025,
-        link: "Seasonal Influence of ENSO, IOD, and MJO on Heat Index -Derived Heat Stress across India"
+        link: "https://www.researchgate.net/publication/398039175_Seasonal_Influence_of_ENSO_IOD_and_MJO_on_Heat_Index_-Derived_Heat_Stress_across_India?channel=doi&linkId=692878777185551710644202&showFulltext=true"
       },
       {
         title: "Predicting Surface Temperature at Indian Ports Using Machine Learning Models",

@@ -602,6 +602,11 @@ const Home = () => {
   // News marquee data - these will link to specific positions
   const newsItems = [
     {
+      id: 4,
+      text: "📢 Summer Internship Program 2026 - Applications Open",
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7460984933616979968/"
+    },
+    {
       id: 1,
       text: "🎓 New PhD Position Available ",
       link: "/positions#phd-climate-modeling"
@@ -616,11 +621,6 @@ const Home = () => {
       text: "💼 Master's Research Assistant Positions - Apply Now",
       link: "/positions#masters-assistant"
     },
-    {
-      id: 4,
-      text: "📢 Summer Internship Program 2025 - Applications Open",
-      link: "/positions#summer-internship"
-    }
   ];
 
   const researchSlides = [
@@ -630,7 +630,7 @@ const Home = () => {
       title: "Predicting extreme storm surge along the Indian coastline using a physics-guided machine learning ensemble",
       description: "A physics-guided ML framework was developed to improve storm surge forecasting along India’s coastline, outperforming traditional models with higher accuracy and reliability for extreme events. By integrating physical constraints and ensemble learning, the model remains interpretable and confirms key dynamics like the inverse barometer effect.",
       buttonText: "Read Publication 1",
-      buttonLink: "https://www.sciencedirect.com/science/article/pii/S0029801826012552#fig5",
+      buttonLink: "https://www.sciencedirect.com/science/article/pii/S0029801826012552",
       journal: "Ocean Engineering",
       year: "2026",
       researchName: "Coastal Wave Climate Analysis & Prediction"
@@ -640,7 +640,7 @@ const Home = () => {
       title: "Indian Ocean Sea Surface Temperature Modulates the Arctic Oscillation: A Multi‐Model Assessment Using CMIP6",
       description: "This study examines how sea surface temperature variability across Indian Ocean regions influences the Arctic Oscillation, highlighting a strong wintertime link with the Southern Indian Ocean and notable inter-model variability in CMIP6 simulations.",
       buttonText: "Read Publication 2",
-      buttonLink: "https://www.researchgate.net/publication/399560125_Indian_Ocean_Sea_Surface_Temperature_Modulates_the_Arctic_Oscillation_A_Multi-Model_Assessment_Using_CMIP6",
+      buttonLink: "https://rmets.onlinelibrary.wiley.com/doi/10.1002/joc.70259?utm_medium=article",
       journal: "International Journal of Climatology",
       year: "2026",
       researchName: "Arctic Climate Dynamics"
@@ -650,7 +650,7 @@ const Home = () => {
       title: "Wind-wave climate changes and their impacts",
       description: "Investigating global changes in ocean wind-wave patterns and their profound impacts on coastal erosion, marine ecosystems, and coastal infrastructure worldwide. Our research focuses on understanding climate-driven variations in wave energy and their consequences for coastal vulnerability.",
       buttonText: "Read Publication 3",
-      buttonLink: "https://www.sciencedirect.com/science/article/pii/S1463500325000630?via%3Dihub",
+      buttonLink: "https://www.nature.com/articles/s43017-023-00502-0",
       journal: "Nature Reviews Earth & Environment",
       year: "2024",
       researchName: "Wind-Wave Climate Pattern" 
@@ -670,7 +670,7 @@ const Home = () => {
       title: "Assessment of projected changes in mean and extreme wave power across the Indian coastal sectors under high-emission climate scenarios",
       description: "Future climate scenarios indicate shifting and more variable wave power along India’s coasts, with select locations like Gujarat and island regions retaining strong potential for reliable wave energy despite overall declines.",
       buttonText: "Read Publication 5",
-      buttonLink: "https://www.sciencedirect.com/science/article/pii/S0029801824001264?via%3Dihub",
+      buttonLink: "https://www.sciencedirect.com/science/article/pii/S1463500325000952",
       journal: "Ocean Modelling",
       year: "2025",
       researchName: "Coastal Wave Climate Analysis & Prediction"
@@ -680,7 +680,7 @@ const Home = () => {
       title: "Global future heat stress projections: Regional variations of Humidex changes from high-resolution CMIP6 models",
       description: "Predicting future heat stress impacts globally with fine-scale regional Humidex analysis using advanced CMIP6 climate projections. Our work identifies vulnerable populations and informs adaptation strategies.",
       buttonText: "Read Publication 6",
-      buttonLink: "https://www.sciencedirect.com/science/article/pii/S1463500325000952",
+      buttonLink: "https://www.sciencedirect.com/science/article/pii/S0169809525004594",
       journal: "Atmospheric Research",
       year: "2025",
       researchName: "Extreme Heat Stress Analysis"
@@ -713,31 +713,43 @@ const Home = () => {
     <div className="min-h-screen flex flex-col">
       <div className="flex-1 space-y-6 animate-fade-in">
         {/* Lab Name Section with Background Image */}
-        <div className="relative rounded-2xl overflow-hidden shadow-2xl h-64 group">
-          <div 
+        <div className="relative rounded-2xl overflow-hidden shadow-2xl min-h-[300px] md:min-h-[340px] lg:min-h-[370px] group">
+          <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url(${bg})` }}
           />
           <div className="absolute inset-0 bg-black/50" />
-          <div className="relative h-full flex items-center justify-center text-center p-8">
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 flex items-center justify-center">
-                {/* FIX 2: Added logo and centered the h1 content */}
-                <img
-                  src={logo}
-                  alt="CLIMATE Lab Logo"
-                  className="h-12 w-12 md:h-16 md:w-16 mr-4 rounded-full bg-white p-1 shadow-lg animate-fade-in"
-                />
-                Welcome to <span className="inline-block"> {/* FIX: Moved space inside "Welcome to " and out of the span */}
-                  <TypingAnimation text="...CLIMATE" speed={150} />
-                  {/* Cursor blinking effect */}
+
+          <div className="relative h-full flex items-center justify-center text-center px-6 py-8 md:py-10">
+            <div className="w-full max-w-6xl flex flex-col items-center">
+              <img
+                src={logo}
+                alt="CLIMATE Lab Logo"
+                className="h-12 w-12 md:h-16 md:w-16 mb-4 rounded-full bg-white p-1 shadow-lg animate-fade-in"
+              />
+
+              <h1
+                className="w-full text-white font-bold tracking-tight
+                          leading-[1.0]
+                          text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
+              >
+                <span className="block mb-1">
+                  Welcome to
+                </span>
+
+                <span className="block whitespace-nowrap">
+                  <TypingAnimation
+                    text="CLIMATE ENGINEERING LAB"
+                    speed={150}
+                  />
                   <span className="ml-1 animate-pulse">|</span>
                 </span>
               </h1>
-              <p 
-                className={`text-xl text-white/90 transition-all duration-500 ${
-                  showSubtitle ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-                }`}
+
+              <p
+                className={`mt-4 text-sm sm:text-base md:text-lg lg:text-xl
+                text-white/90 transition-all duration-500 max-w-5xl
+                ${showSubtitle ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
               >
                 Climate Lab for Intelligent Modeling, Analytics, Technology & Environment
               </p>
