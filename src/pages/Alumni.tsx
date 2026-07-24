@@ -9,11 +9,110 @@ import alumni3 from "@/assets/user.jpg";
 import alumni4 from "@/assets/user.jpg";
 import alumni5 from "@/assets/user.jpg";
 import alumni6 from "@/assets/user.jpg";
+import Anshu from "@/assets/anshu.jpg";
+import viaan from "@/assets/viaan.jpeg";
+import shweta from "@/assets/shweta.jpg";
+import dushyant from "@/assets/242432005.jpg";
+import ankit from "@/assets/242432002.jpg";
+import dibya from "@/assets/242432003.jpg";
+import shanti from "@/assets/242432007.jpeg";
+import Tanuj from "@/assets/Tanuj.jpg";
 
 const Alumni = () => {
   const alumniData = [
     {
+      name: "Tanuj Joshi",
+      program: "M.Tech Research Scholar",
+      year: "2025-2027",
+      researchArea: "ML, Data science and analytics",
+      email: "tanujjoshi37776@gmail.com",
+      photo: Tanuj,
+      location: "Lucknow, India",
+      resumeUrl: "/resumes/Tanuj.pdf",
+      linkedinUrl: "https://in.linkedin.com/in/tanuj-joshi-433815200",
+    },
+    {
+      name: "Ankit Kumar",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Cloudburst Analysis | ML Researcher",
+      email: "242432002@nitdelhi.ac.in",
+      photo: ankit,
+      location: "Banglore, India",
+      resumeUrl: "/resumes/Ankit.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/ankitx55",
+    },
+    
+    {
+      name: "Dibyadarshini Maharatha",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Climate Data Analytics",
+      email: "242432003@nitdelhi.ac.in",
+      photo: dibya,
+      location: "Surat, India",
+      resumeUrl: "/resumes/Dibyadarshini.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/dibya-darshini-maharatha-719989234/",
+    },
+    {
+      name: "Dushyant Sharma",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Climate Data Analysis | ML Researcher",
+      email: "242432005@nitdelhi.ac.in",
+      photo: dushyant,
+      location: "Haryana, India",
+      resumeUrl: "/resumes/DushyantSharma.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/dushyant-sharma-71588822b",
+    },
+    {
+      name: "Shanthiprasad Jain",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Machine Learning in Climate",
+      email: "242432007@nitdelhi.ac.in",
+      photo: shanti,
+      location: "Delhi, India",
+      resumeUrl: "/resumes/Shanthiprasad.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/shanthiprasad-jain-02557a1b8",
+    },
+    {
+      name: "Shweta Jain",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "AI Researcher",
+      email: "242432008@nitdelhi.ac.in",
+      photo: shweta,
+      location: "Delhi, India",
+      resumeUrl: "/resumes/Shweta.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/shweta-jain-a4aaa1246/",
+    },
+    
+    {
+      name: "Viaan Sharma",
+      program: "M.Tech Research Scholar",
+      year: "2024-2026",
+      researchArea: "Cyclone-Induced Rainfall Prediction | AI Researcher",
+      email: "242432009@nitdelhi.ac.in",
+      photo: viaan,
+      location: "Delhi, India",
+      resumeUrl: "/resumes/242432009_Viaan_Sharma.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/",
+    },
+    {
       id: 1,
+      name: "Anshu Yadav",
+      program: "PhD Research Scholar",
+      year: "2022-2026",
+      researchArea: "Wind-wave, Wave Power, and Tropical Cyclones", 
+      email: "anshuyadav@nitdelhi.ac.in",
+      photo: Anshu,
+      location: "Haryana, India",
+      resumeUrl: "/resumes/Anshu.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/anshu-yadav-b41099233/",
+    },
+    {
+      id: 2,
       name: "Gulshan",
       program: "PhD Research Scholar",
       year: "PhD – 2018",
@@ -26,7 +125,7 @@ const Alumni = () => {
       photo: alumni1,
     },
     {
-      id: 2,
+      id: 3,
       name: "Rupali",
       program: "PhD Research Scholar",
       year: "PhD – 2021",
@@ -39,7 +138,7 @@ const Alumni = () => {
       photo: alumni2,
     },
     {
-      id: 3,
+      id: 4,
       name: "Sukhwinder Kaur",
       program: "PhD Research Scholar",
       year: "PhD – 2022",
@@ -52,7 +151,7 @@ const Alumni = () => {
       photo: alumni3,
     },
     {
-      id: 4,
+      id: 5,
       name: "Prachi Priya",
       program: "PhD Research Scholar",
       year: "PhD – 2023",
@@ -65,7 +164,7 @@ const Alumni = () => {
       photo: alumni4,
     },
     {
-      id: 5,
+      id: 6,
       name: "Divya Sardana",
       program: "PhD Research Scholar",
       year: "PhD – 2023",
@@ -78,7 +177,7 @@ const Alumni = () => {
       photo: alumni5,
     },
     {
-      id: 6,
+      id: 7,
       name: "Vinita",
       program: "PhD Research Scholar",
       year: "PhD – 2025",

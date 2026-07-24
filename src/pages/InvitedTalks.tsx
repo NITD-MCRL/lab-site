@@ -4,6 +4,14 @@ import { Presentation, MapPin, Calendar } from "lucide-react";
 
 const InvitedTalks = () => {
   const talks = [
+
+    {
+      title: "OCEAN-GCM: A Physics-Guided Climate Foundation AI Model for Next-Generation GHRSST Data Products",
+      event: "27th International SST Users' Symposium and GHRSST Science Team Meeting (GHRSST27)",
+      location: "Hokkaido University, sSapporo, Japan",
+      date: "2026",
+      type: "Conference"
+},
     
     {
       title: "Assessing the Impact of Indian Ocean SST Variability on the Arctic Oscillation using CMIP6 Models",

@@ -668,12 +668,12 @@ const Home = () => {
     },
     {
       image: research6,
-      title: "Assessment of projected changes in mean and extreme wave power across the Indian coastal sectors under high-emission climate scenarios",
-      description: "Future climate scenarios indicate shifting and more variable wave power along India’s coasts, with select locations like Gujarat and island regions retaining strong potential for reliable wave energy despite overall declines.",
+      title: "Modulation of extreme storm surge events by large-scale climate modes across the Indo-Pacific",
+      description: "Investigates how large-scale climate modes (ENSO, PDO, IOD, and PNA) modulate the frequency and intensity of extreme storm surge events across the Indo-Pacific under different seasonal conditions.",
       buttonText: "Read Publication 5",
-      buttonLink: "https://www.sciencedirect.com/science/article/pii/S1463500325000952",
-      journal: "Ocean Modelling",
-      year: "2025",
+      buttonLink: "https://doi.org/10.1016/j.oceaneng.2026.126451",
+      journal: "Ocean Engineering",
+      year: "2026",
       researchName: "Coastal Wave Climate Analysis & Prediction"
     },
     {

@@ -323,6 +323,20 @@ const Publications = () => {
 // },
 //   ];
       const publications = [
+        {
+        title: "Enhancing Electric Vehcile Route Transparency Using Explainable AI Integrated Quantum Deep Reinforcement Learning framework for Green Transportation",
+        authors: "Jain, Shweta & Kumar, Prashant & Aggarwal, Rishit & , Rajni & Kamranzad, Bahareh. ",
+        venue: "2026 IEEE Applied Sensing Conference (APSCON)",
+        year: 2026,
+        link: "https://doi.org/10.1109/APSCON68325.2026.11497237"
+      },
+        {
+        title: "Modulation of extreme storm surge events by large-scale climate modes across the Indo-Pacific",
+        authors: "Saha K.K.;Kumar P.;Kamranzad B.;T.M. Balakrishnan Nair; Singh A..;Rajni",
+        venue: "Ocean Engineering Volume 362, Part 3",
+        year: 2026,
+        link: "https://doi.org/10.1016/j.oceaneng.2026.126451"
+      },
       {
         title: "Global future heat stress projections: Regional variations of Humidex changes from high-resolution CMIP6 models",
         authors: "Kushwaha R.;Kumar P.;Hisaki Y.",

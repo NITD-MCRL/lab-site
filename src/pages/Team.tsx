@@ -1,12 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, GraduationCap, BookOpen } from "lucide-react";
 import StudentCard from "@/components/StudentCard";
-import viaan from "@/assets/viaan.jpeg";
-import shweta from "@/assets/shweta.jpg";
-import dushyant from "@/assets/242432005.jpg";
-import ankit from "@/assets/242432002.jpg";
-import dibya from "@/assets/242432003.jpg";
-import shanti from "@/assets/242432007.jpeg";
+
 import Anushka from "@/assets/Anushka.jpg";  
 import Arju from "@/assets/Arju.jpeg";
 import Chhavi from "@/assets/Chhavi.jpeg";
@@ -28,6 +23,7 @@ import Rishabh from "@/assets/rishabh.jpeg";
 import Shruti from "@/assets/Shruti.jpeg";
 import Ramakant from "@/assets/Ramakant.jpeg";
 import Suresh from "@/assets/Suresh.jpeg";
+import Aayushi from "@/assets/Aayushi.jpeg";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
@@ -35,7 +31,17 @@ const Team = () => {
   const students = [
 
     // PhD Students - Ordered by seniority (earliest start year first)
-    
+    { 
+      name: "Dr. Aayushi Tandon",
+      program: "Post Doctoral Scientist",
+      year: "2026-Present",
+      researchArea: "AI/ML for Weather & Climate", 
+      email: "tdn2408aayushi@gmail.com ",
+      photo: Aayushi,
+      resumeUrl: "/resumes/Aaysuhi.pdf", // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/aayushitandon04",
+      showResume: false, // Add this flag
+    },
     { 
       name: "Ramakant Prasad",
       program: "PhD Research Scholar",
@@ -79,16 +85,16 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/sureshyadavirs/",
       showResume: false, // Add this flag
     },
-    {
-      name: "Anshu Yadav",
-      program: "PhD Research Scholar",
-      year: "2022-Present",
-      researchArea: "Wind-wave, Wave Power, and Tropical Cyclones", 
-      email: "anshuyadav@nitdelhi.ac.in",
-      photo: Anshu,
-      resumeUrl: "/resumes/Anshu.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/anshu-yadav-b41099233/",
-    },
+    // {
+    //   name: "Anshu Yadav",
+    //   program: "PhD Research Scholar",
+    //   year: "2022-Present",
+    //   researchArea: "Wind-wave, Wave Power, and Tropical Cyclones", 
+    //   email: "anshuyadav@nitdelhi.ac.in",
+    //   photo: Anshu,
+    //   resumeUrl: "/resumes/Anshu.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/anshu-yadav-b41099233/",
+    // },
     {
       name: "Kamlesh Kumar Saha",
       program: "PhD Research Scholar",
@@ -122,16 +128,16 @@ const Team = () => {
       resumeUrl: "/resumes/Chhavi.pdf",
       linkedinUrl: "https://www.linkedin.com/in/chhavi-bhakhna-a03202321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    {
-      name: "Patel Mihirkumar Atulbhai",
-      program: "PhD Research Scholar",
-      year: "2024-Present",
-      researchArea: "Cyclone Destructiveness Analysis and Prediction using ML",
-      email: "patelmihir5033@gmail.com",
-      photo: Mihir,
-      resumeUrl: "/resumes/Mihir.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/mihir-patel-7369b72b3/",
-    },
+    // {
+    //   name: "Patel Mihirkumar Atulbhai",
+    //   program: "PhD Research Scholar",
+    //   year: "2024-Present",
+    //   researchArea: "Cyclone Destructiveness Analysis and Prediction using ML",
+    //   email: "patelmihir5033@gmail.com",
+    //   photo: Mihir,
+    //   resumeUrl: "/resumes/Mihir.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/mihir-patel-7369b72b3/",
+    // },
     {
       name: "Arju",
       program: "PhD Research Scholar",
@@ -162,16 +168,16 @@ const Team = () => {
       resumeUrl: "/resumes/Meghna.pdf",
       linkedinUrl: " ",
     },
-    {
-      name: "Mohit Bisht",
-      program: "PhD Research Scholar",
-      year: "2025-Present",
-      researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
-      email: "mohitbisht@nitdelhi.ac.in",
-      photo: Mohit,
-      resumeUrl: "/resumes/Mohit.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/mohitbisht54321/",
-    },
+    // {
+    //   name: "Mohit Bisht",
+    //   program: "PhD Research Scholar",
+    //   year: "2025-Present",
+    //   researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
+    //   email: "mohitbisht@nitdelhi.ac.in",
+    //   photo: Mohit,
+    //   resumeUrl: "/resumes/Mohit.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/mohitbisht54321/",
+    // },
     {
       name: "Rashika Rana",
       program: "PhD Research Scholar",
@@ -195,68 +201,68 @@ const Team = () => {
     
     // M.Tech Students - Ordered by seniority (2024 batch first, then 2025 batch)
     // M.Tech 2024-2026 Batch
-    {
-      name: "Ankit Kumar",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Cloudburst Analysis | ML Researcher",
-      email: "242432002@nitdelhi.ac.in",
-      photo: ankit,
-      resumeUrl: "/resumes/Ankit.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/ankitx55",
-    },
+    // {
+    //   name: "Ankit Kumar",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2024-2026",
+    //   researchArea: "Cloudburst Analysis | ML Researcher",
+    //   email: "242432002@nitdelhi.ac.in",
+    //   photo: ankit,
+    //   resumeUrl: "/resumes/Ankit.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/ankitx55",
+    // },
     
-    {
-      name: "Dibyadarshini Maharatha",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Climate Data Analytics",
-      email: "242432003@nitdelhi.ac.in",
-      photo: dibya,
-      resumeUrl: "/resumes/Dibyadarshini.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/dibya-darshini-maharatha-719989234/",
-    },
-    {
-      name: "Dushyant Sharma",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Climate Data Analysis | ML Researcher",
-      email: "242432005@nitdelhi.ac.in",
-      photo: dushyant,
-      resumeUrl: "/resumes/DushyantSharma.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/dushyant-sharma-71588822b",
-    },
-    {
-      name: "Shanthiprasad Jain",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Machine Learning in Climate",
-      email: "242432007@nitdelhi.ac.in",
-      photo: shanti,
-      resumeUrl: "/resumes/Shanthiprasad.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/shanthiprasad-jain-02557a1b8",
-    },
-    {
-      name: "Shweta Jain",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "AI Researcher",
-      email: "242432008@nitdelhi.ac.in",
-      photo: shweta,
-      resumeUrl: "/resumes/Shweta.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/shweta-jain-a4aaa1246/",
-    },
+    // {
+    //   name: "Dibyadarshini Maharatha",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2024-2026",
+    //   researchArea: "Climate Data Analytics",
+    //   email: "242432003@nitdelhi.ac.in",
+    //   photo: dibya,
+    //   resumeUrl: "/resumes/Dibyadarshini.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/dibya-darshini-maharatha-719989234/",
+    // },
+    // {
+    //   name: "Dushyant Sharma",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2024-2026",
+    //   researchArea: "Climate Data Analysis | ML Researcher",
+    //   email: "242432005@nitdelhi.ac.in",
+    //   photo: dushyant,
+    //   resumeUrl: "/resumes/DushyantSharma.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/dushyant-sharma-71588822b",
+    // },
+    // {
+    //   name: "Shanthiprasad Jain",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2024-2026",
+    //   researchArea: "Machine Learning in Climate",
+    //   email: "242432007@nitdelhi.ac.in",
+    //   photo: shanti,
+    //   resumeUrl: "/resumes/Shanthiprasad.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/shanthiprasad-jain-02557a1b8",
+    // },
+    // {
+    //   name: "Shweta Jain",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2024-2026",
+    //   researchArea: "AI Researcher",
+    //   email: "242432008@nitdelhi.ac.in",
+    //   photo: shweta,
+    //   resumeUrl: "/resumes/Shweta.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/shweta-jain-a4aaa1246/",
+    // },
     
-    {
-      name: "Viaan Sharma",
-      program: "M.Tech Research Scholar",
-      year: "2024-2026",
-      researchArea: "Cyclone-Induced Rainfall Prediction | AI Researcher",
-      email: "242432009@nitdelhi.ac.in",
-      photo: viaan,
-      resumeUrl: "/resumes/242432009_Viaan_Sharma.pdf",
-      linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/",
-    },
+    // {
+    //   name: "Viaan Sharma",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2024-2026",
+    //   researchArea: "Cyclone-Induced Rainfall Prediction | AI Researcher",
+    //   email: "242432009@nitdelhi.ac.in",
+    //   photo: viaan,
+    //   resumeUrl: "/resumes/242432009_Viaan_Sharma.pdf",
+    //   linkedinUrl: "https://www.linkedin.com/in/viaan-sharma-9a6368201/",
+    // },
 
     
     // M.Tech 2025-2027 Batch
@@ -290,16 +296,16 @@ const Team = () => {
       resumeUrl: "/resumes/Khushi.pdf",
       linkedinUrl: "https://in.linkedin.com/in/khushi-singh-323133234"
     },
-    {
-      name: "Tanuj Joshi",
-      program: "M.Tech Research Scholar",
-      year: "2025-2027",
-      researchArea: "ML, Data science and analytics",
-      email: "tanujjoshi37776@gmail.com",
-      photo: Tanuj,
-      resumeUrl: "/resumes/Tanuj.pdf",
-      linkedinUrl: "https://in.linkedin.com/in/tanuj-joshi-433815200",
-    },
+    // {
+    //   name: "Tanuj Joshi",
+    //   program: "M.Tech Research Scholar",
+    //   year: "2025-2027",
+    //   researchArea: "ML, Data science and analytics",
+    //   email: "tanujjoshi37776@gmail.com",
+    //   photo: Tanuj,
+    //   resumeUrl: "/resumes/Tanuj.pdf",
+    //   linkedinUrl: "https://in.linkedin.com/in/tanuj-joshi-433815200",
+    // },
     {
       name: "Vedang Jamenis",
       program: "M.Tech Research Scholar",
@@ -327,7 +333,11 @@ const Team = () => {
   );
   
   const phdStudents = students.filter(student => 
-    student.program.includes("PhD") || student.program.includes("Doctoral")
+    student.program.includes("PhD") || student.program.includes("Philosophy")
+  );
+
+  const postDoc = students.filter(student => 
+    student.program.includes("Post Doctoral") || student.program.includes("Post-Doctoral")
   );
 
   return (
@@ -337,7 +347,7 @@ const Team = () => {
         <CardContent className="p-6">
           <h1 className="text-4xl font-bold mb-2 flex items-center gap-3">
             <Users className="h-10 w-10 text-primary" />
-            My Students
+            My Team
           </h1>
           <p className="text-muted-foreground">
             Meet the talented researchers advancing climate science in our lab
@@ -347,10 +357,14 @@ const Team = () => {
 
       {/* Tabs Navigation */}
       <Tabs defaultValue="all" className="space-y-6">
-        <TabsList className="grid w-full grid-cols-3">
+        <TabsList className="grid w-full grid-cols-4">
           <TabsTrigger value="all" className="flex items-center gap-2">
             <Users className="h-4 w-4" />
-            All Students ({students.length})
+            Total ({students.length})
+          </TabsTrigger>
+          <TabsTrigger value="post-doc" className="flex items-center gap-2">
+            <BookOpen className="h-4 w-4" />
+            Post-Doc ({postDoc.length})
           </TabsTrigger>
           <TabsTrigger value="phd" className="flex items-center gap-2">
             <BookOpen className="h-4 w-4" />
@@ -365,6 +379,16 @@ const Team = () => {
         <TabsContent value="all">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {students.map((student, index) => (
+              <div key={index} className="animate-fade-in hover-scale">
+                <StudentCard {...student} />
+              </div>
+            ))}
+          </div>
+        </TabsContent>
+
+        <TabsContent value="post-doc">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {postDoc.map((student, index) => (
               <div key={index} className="animate-fade-in hover-scale">
                 <StudentCard {...student} />
               </div>
