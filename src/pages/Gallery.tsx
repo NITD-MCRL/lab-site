@@ -17,6 +17,32 @@ import im13 from "@/assets/im13.jpeg";
 import im15 from "@/assets/15.jpeg";
 import im16 from "@/assets/im16.jpg";
 
+import img_01 from "@/assets/gallery/img_01.jpg";
+import img_02 from "@/assets/gallery/img_02.jpg";
+import img_03 from "@/assets/gallery/img_03.jpg";
+import img_04 from "@/assets/gallery/img_04.jpg";
+import img_05 from "@/assets/gallery/img_05.jpg";
+import img_06 from "@/assets/gallery/img_06.jpg";
+import img_07 from "@/assets/gallery/img_07.jpg";
+import img_08 from "@/assets/gallery/img_08.jpg";
+import img_09 from "@/assets/gallery/img_09.jpg";
+import img_10 from "@/assets/gallery/img_10.jpg";
+import img_11 from "@/assets/gallery/img_11.jpg";
+import img_12 from "@/assets/gallery/img_12.jpg";
+import img_13 from "@/assets/gallery/img_13.jpg";
+import img_14 from "@/assets/gallery/img_14.jpg";
+// import img_15 from "@/assets/gallery/img_15.jpg";
+import img_16 from "@/assets/gallery/img_16.jpg";
+import img_17 from "@/assets/gallery/img_17.jpg";
+import img_18 from "@/assets/gallery/img_18.jpg";
+import img_19 from "@/assets/gallery/img_19.jpg";
+import img_20 from "@/assets/gallery/img_20.jpg";
+import img_21 from "@/assets/gallery/img_21.jpg";
+import img_22 from "@/assets/gallery/img_22.jpg";
+
+
+
+
 const Gallery = () => {
   // All gallery images combined
   const galleryImages = [
@@ -35,7 +61,29 @@ const Gallery = () => {
     { src: im12 },
     { src: im13 },
     { src: im15 },
-    { src: im16 }
+    { src: im16 },
+    { src: img_01 },
+    // { src: img_02 },
+    // { src: img_03 },
+    // { src: img_04 },
+    { src: img_05 },
+    { src: img_06 },
+    // { src: img_07 },
+    // { src: img_08 },
+    { src: img_09 },
+    { src: img_10 },
+    { src: img_11 },
+    { src: img_12 },
+    { src: img_13 },
+    { src: img_14 },
+    // { src: img_15 },
+    { src: img_16 },
+    { src: img_17 },
+    { src: img_18 },
+    { src: img_19 },
+    { src: img_20 },
+    { src: img_21 },
+    // { src: img_22 },
   ];
 
   return (
