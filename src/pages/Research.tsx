@@ -3,11 +3,11 @@ import { Badge } from "@/components/ui/badge";
 
 const Research = () => {
   const researchAreas = [
-    {
-      title: "Wave Power",
-      description: "Investigating wind-wave interactions and spectral wave dynamics to understand coastal wave climate variability, extreme events, and marine energy potential.",
-      topics: ["Spectral Wave Dynamics", "Coastal Wave Forecasting", "Ocean Wave Energy Assessment", "Wave Spectrum Modeling", "Nearshore Wave Transformation",]
-    },
+    // {
+    //   title: "Wave Power",
+    //   description: "Investigating wind-wave interactions and spectral wave dynamics to understand coastal wave climate variability, extreme events, and marine energy potential.",
+    //   topics: ["Spectral Wave Dynamics", "Coastal Wave Forecasting", "Ocean Wave Energy Assessment", "Wave Spectrum Modeling", "Nearshore Wave Transformation",]
+    // },
     {
       title: "Wind-Wave Climate",
       description: "Investigating the complex interactions between atmospheric winds and ocean waves to understand wave climate variability and its impacts on coastal systems.",
@@ -24,7 +24,7 @@ const Research = () => {
       topics: ["Nearshore Wave Dynamics", "Coastal Erosion", "Wave Transformation", "Sediment Transport", "Coastal Vulnerability"]
     },
     {
-      title: "Arctic Sea Ice Variations",
+      title: "Polar Sea Ice Variations",
       description: "Examining the rapid changes in Arctic sea ice extent, thickness, and dynamics to understand polar amplification and global climate feedback mechanisms.",
       topics: ["Sea Ice Retreat", "Albedo Feedback", "Polar Amplification", "Ice-Ocean Interactions", "Satellite Remote Sensing"]
     },
@@ -33,11 +33,11 @@ const Research = () => {
       description: "Leveraging artificial intelligence and machine learning methods to enhance climate prediction accuracy and uncover complex patterns in climate data.",
       topics: ["Machine Learning Models", "Neural Networks", "Climate Data Mining", "Predictive Analytics", "Deep Learning Applications"]
     },
-    {
-      title: "Tropical Cyclone Prediction & Analysis",
-      description: "Developing advanced forecasting techniques and analysis methods for tropical cyclones to improve early warning systems and risk assessment.",
-      topics: ["Cyclone Track Prediction", "Intensity Forecasting", "Storm Surge Modeling", "Satellite Meteorology", "Risk Assessment"]
-    }
+    // {
+    //   title: "Tropical Cyclone Prediction & Analysis",
+    //   description: "Developing advanced forecasting techniques and analysis methods for tropical cyclones to improve early warning systems and risk assessment.",
+    //   topics: ["Cyclone Track Prediction", "Intensity Forecasting", "Storm Surge Modeling", "Satellite Meteorology", "Risk Assessment"]
+    // }
   ];
 
   return (

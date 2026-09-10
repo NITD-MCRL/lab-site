@@ -17,9 +17,22 @@ import ankit from "@/assets/242432002.jpg";
 import dibya from "@/assets/242432003.jpg";
 import shanti from "@/assets/242432007.jpeg";
 import Tanuj from "@/assets/Tanuj.jpg";
+import Ramakant from "@/assets/Ramakant.jpeg";
 
 const Alumni = () => {
   const alumniData = [
+    { 
+      name: "Ramakant Prasad",
+      program: "PhD Research Scholar",
+      year: "2022-2026",
+      researchArea: "Wind-Wave Climate Change", 
+      email: "ramakant.prasad@nitdelhi.ac.in",
+      photo: Ramakant,
+      resumeUrl: null, // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/ramakant-prasad-a42469a0/",
+      showResume: false, // Add this flag
+      location: "Delhi, India",
+    },
     {
       name: "Tanuj Joshi",
       program: "M.Tech Research Scholar",

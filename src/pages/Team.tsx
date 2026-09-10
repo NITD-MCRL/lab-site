@@ -21,7 +21,7 @@ import kamlesh from "@/assets/KAMLESH.jpg";
 import Anshu from "@/assets/anshu.jpg";
 import Rishabh from "@/assets/rishabh.jpeg";
 import Shruti from "@/assets/Shruti.jpeg";
-import Ramakant from "@/assets/Ramakant.jpeg";
+// import Ramakant from "@/assets/Ramakant.jpeg";
 import Suresh from "@/assets/Suresh.jpeg";
 import Aayushi from "@/assets/Aayushi.jpeg";
 
@@ -42,17 +42,17 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/aayushitandon04",
       showResume: false, // Add this flag
     },
-    { 
-      name: "Ramakant Prasad",
-      program: "PhD Research Scholar",
-      year: "2022-Present",
-      researchArea: "Wind-Wave Climate Change", 
-      email: "ramakant.prasad@nitdelhi.ac.in",
-      photo: Ramakant,
-      resumeUrl: null, // Set to null or undefined
-      linkedinUrl: "https://www.linkedin.com/in/ramakant-prasad-a42469a0/",
-      showResume: false, // Add this flag
-    },
+    // { 
+    //   name: "Ramakant Prasad",
+    //   program: "PhD Research Scholar",
+    //   year: "2022-Present",
+    //   researchArea: "Wind-Wave Climate Change", 
+    //   email: "ramakant.prasad@nitdelhi.ac.in",
+    //   photo: Ramakant,
+    //   resumeUrl: null, // Set to null or undefined
+    //   linkedinUrl: "https://www.linkedin.com/in/ramakant-prasad-a42469a0/",
+    //   showResume: false, // Add this flag
+    // },
     {
       name: "Rishabh Kushwaha",
       program: "PhD Research Scholar",

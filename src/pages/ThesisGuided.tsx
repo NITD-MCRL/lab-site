@@ -4,6 +4,19 @@ import { GraduationCap, BookOpen, Users } from "lucide-react";
 
 const ThesisGuided = () => {
   const phdTheses = [
+    { 
+      "code": "8",
+      "student": "Ramakant Prasad",
+      "level": "PhD",
+      "year": "2026",
+      "description": "",
+      "institution": "National Institute of Technology Delhi", 
+      // email: "ramakant.prasad@nitdelhi.ac.in",
+      // resumeUrl: null, // Set to null or undefined
+      // linkedinUrl: "https://www.linkedin.com/in/ramakant-prasad-a42469a0/",
+      // showResume: false, // Add this flag
+      "status": "Completed"
+    },
     {
         "code": "7",
         "student": "Anshu",
@@ -95,7 +108,7 @@ const ThesisGuided = () => {
         "institution": "National Institute of Technology Delhi",
         "year": "2026",
         "level": "M.Tech",
-        "description": "",
+        "description": "PatchTSTSpike: A Patch-Based Transformer Framework for Cloudburst-Like Extreme Rainfall Detection Using ERA5 Reanalysis",
         "status": "Completed"
       },
       {
@@ -104,7 +117,7 @@ const ThesisGuided = () => {
         "institution": "National Institute of Technology Delhi",
         "year": "2026",
         "level": "M.Tech",
-        "description": "",
+        "description": "Machine learning based ENSO prediction using multivariate ocean atmosphere data",
         "status": "Completed"
       },
       {
@@ -113,25 +126,25 @@ const ThesisGuided = () => {
         "institution": "National Institute of Technology Delhi",
         "year": "2026",
         "level": "M.Tech",
-        "description": "",
+        "description": "Spatiotemporal Forecasting of Air Quality Index and Aerosol Optical Depth Using Statistical and Physics-Informed Deep Learning Models",
         "status": "Completed"
       },
-      {
-        "code": "M10",
-        "student": "Diksha Pandey",
-        "institution": "National Institute of Technology Delhi",
-        "year": "2026",
-        "level": "M.Tech",
-        "description": "",
-        "status": "Completed"
-      },
+      // {
+      //   "code": "M10",
+      //   "student": "Diksha Pandey",
+      //   "institution": "National Institute of Technology Delhi",
+      //   "year": "2026",
+      //   "level": "M.Tech",
+      //   "description": "",
+      //   "status": "Completed"
+      // },
       {
         "code": "M11",
         "student": "Shweta Jain",
         "institution": "National Institute of Technology Delhi",
         "year": "2026",
         "level": "M.Tech",
-        "description": "",
+        "description": "QUANT INDRA: A Next-Generation Multi-Tasking Quantum Encoder – Decoder AI Framework with Adaptive Reinforcement Tuning for Trustworthy Weather Forecasting",
         "status": "Completed"
       },
       {
@@ -140,7 +153,7 @@ const ThesisGuided = () => {
         "institution": "National Institute of Technology Delhi",
         "year": "2026",
         "level": "M.Tech",
-        "description": "",
+        "description": "Cyclone-Induced Rainfall Extremes Using GEV Analysis Along Cyclone Fani's Track: A Hybrid Machine Learning Extension for Prediction and Uncertainty Quantification",
         "status": "Completed"
       },
     {
