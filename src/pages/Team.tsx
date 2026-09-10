@@ -24,6 +24,7 @@ import Shruti from "@/assets/Shruti.jpeg";
 // import Ramakant from "@/assets/Ramakant.jpeg";
 import Suresh from "@/assets/Suresh.jpeg";
 import Aayushi from "@/assets/Aayushi.jpeg";
+import Swati from "@/assets/swati.jpeg";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
@@ -189,7 +190,7 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/rashika-rana-7495a9394",
     },
     {
-      name: "SHIKHA MAURYA",
+      name: "Shikha Maurya",
       program: "PhD Research Scholar",
       year: "2025-Present",
       researchArea: "Aerosol and Climate Change",
@@ -197,6 +198,17 @@ const Team = () => {
       photo: Shikha,
       resumeUrl: "/resumes/Shikha.pdf",
       linkedinUrl: "https://www.linkedin.com/in/shikha-maurya-895856293",
+    },
+
+    {
+      name: "Swati Bhalaik",
+      program: "PhD Research Scholar",
+      year: "2025-Present",
+      researchArea: "",
+      email: "swatibhalaik@nitdelhi.ac.in",
+      photo: Swati,
+      resumeUrl: "",
+      linkedinUrl: "https://www.linkedin.com/in/swatibhalaik-213sb/",
     },
     
     // M.Tech Students - Ordered by seniority (2024 batch first, then 2025 batch)
