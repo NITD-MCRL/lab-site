@@ -19,7 +19,7 @@ import shanti from "@/assets/242432007.jpeg";
 import Tanuj from "@/assets/Tanuj.jpg";
 import Ramakant from "@/assets/Ramakant.jpeg";
 
-import StudentCard from "@/components/StudentCard";
+import AlumniCard from "@/components/AlumniCard";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 // import { Card, CardContent } from "@/components/ui/card";
@@ -42,7 +42,7 @@ const Alumni = () => {
     {
       name: "Tanuj Joshi",
       program: "M.Tech Research Scholar",
-      year: "2025-2027",
+      year: "2025-2026",
       researchArea: "ML, Data science and analytics",
       email: "tanujjoshi37776@gmail.com",
       photo: Tanuj,
@@ -105,6 +105,7 @@ const Alumni = () => {
       location: "Delhi, India",
       resumeUrl: "/resumes/Shweta.pdf",
       linkedinUrl: "https://www.linkedin.com/in/shweta-jain-a4aaa1246/",
+      // currentPosition: "Software Developer"
     },
     
     {
@@ -279,7 +280,7 @@ const Alumni = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {students.map((student, index) => (
               <div key={index} className="animate-fade-in hover-scale">
-                <StudentCard {...student} />
+                <AlumniCard {...student} />
               </div>
             ))}
           </div>
@@ -289,7 +290,7 @@ const Alumni = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {phdStudents.map((student, index) => (
               <div key={index} className="animate-fade-in hover-scale">
-                <StudentCard {...student} />
+                <AlumniCard {...student} />
               </div>
             ))}
           </div>
@@ -299,95 +300,14 @@ const Alumni = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {mtechStudents.map((student, index) => (
               <div key={index} className="animate-fade-in hover-scale">
-                <StudentCard {...student} />
+                <AlumniCard {...student} />
               </div>
             ))}
           </div>
         </TabsContent>
       </Tabs>
 
-      {/* Alumni Grid */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {alumniData.map((alumni, index) => (
-          <Card 
-            key={alumni.id}
-            className="hover:shadow-xl transition-all duration-300 hover:scale-105 group"
-            style={{ animationDelay: `${index * 0.1}s` }}
-          >
-            <CardContent className="p-6">
-              {/* Alumni Photo and Basic Info */}
-              <div className="text-center mb-4">
-                <img
-                  src={alumni.photo}
-                  alt={alumni.name}
-                  className="w-24 h-24 rounded-full mx-auto mb-3 object-cover border-4 border-primary/20 group-hover:border-primary/40 transition-colors"
-                />
-                <h3 className="text-xl font-bold mb-1">{alumni.name}</h3>
-                <Badge variant="secondary" className="mb-2">
-                  {alumni.program}
-                </Badge>
-                <p className="text-sm text-muted-foreground">{alumni.year}</p>
-              </div>
-
-              {/* Research Area */}
-              <div className="mb-4">
-                <h4 className="font-semibold text-sm mb-1">Research Area</h4>
-                <p className="text-sm text-muted-foreground">{alumni.researchArea}</p>
-              </div>
-
-              {/* Current Position */}
-              <div className="mb-4">
-                <div className="flex items-start gap-2 mb-2">
-                  <Briefcase className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-sm">Current Position</h4>
-                    <p className="text-sm">{alumni.currentPosition}</p>
-                    <p className="text-sm text-muted-foreground">{alumni.currentOrganization}</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <MapPin className="h-4 w-4 text-primary" />
-                  <span className="text-sm text-muted-foreground">{alumni.location}</span>
-                </div>
-              </div>
-
-              {/* Key Achievements */}
-              {/* <div className="mb-4">
-                <h4 className="font-semibold text-sm mb-2">Key Achievements</h4>
-                <ul className="space-y-1">
-                  {alumni.achievements.slice(0, 2).map((achievement, idx) => (
-                    <li key={idx} className="text-xs text-muted-foreground flex items-start gap-1">
-                      <span className="text-primary mt-1">•</span>
-                      {achievement}
-                    </li>
-                  ))}
-                  {alumni.achievements.length > 2 && (
-                    <li className="text-xs text-primary font-medium">
-                      +{alumni.achievements.length - 2} more achievements
-                    </li>
-                  )}
-                </ul>
-              </div> */}
-
-              {/* Contact Links */}
-              {/* <div className="flex gap-2 pt-4 border-t">
-                <Button variant="outline" size="sm" className="flex-1" asChild>
-                  <a href={`mailto:${alumni.email}`}>
-                    <Mail className="h-3 w-3 mr-1" />
-                    Email
-                  </a>
-                </Button>
-                <Button variant="outline" size="sm" className="flex-1" asChild>
-                  <a href={alumni.linkedinUrl} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="h-3 w-3 mr-1" />
-                    LinkedIn
-                  </a>
-                </Button>
-              </div> */}
-            </CardContent>
-          </Card>
-        ))}
-      </div>
+      
 
       {/* Statistics Section */}
       {/* <Card className="bg-muted/50">
