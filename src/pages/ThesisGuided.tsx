@@ -221,6 +221,61 @@ const ThesisGuided = () => {
         </p>
       </div>
 
+      {/* Summary Card */}
+      <Card className="mt-8 hover:shadow-lg transition-all duration-300" style={{ marginBottom: "10px" }}>
+        <CardContent className="p-6">
+          <div className="flex items-center gap-3 mb-4">
+            <Users className="h-6 w-6 text-primary" />
+            <h2 className="text-xl font-bold">Supervision Summary</h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <h3 className="font-semibold text-lg">PhD Supervision</h3>
+              <div className="grid grid-cols-2 gap-3">
+                <div className="p-3 bg-primary/5 rounded-lg">
+                  <p className="text-2xl font-bold">{phdTheses.length}</p>
+                  <p className="text-sm text-muted-foreground">Total Theses</p>
+                </div>
+                <div className="p-3 bg-green-500/5 rounded-lg">
+                  <p className="text-2xl font-bold text-green-600">
+                    {phdTheses.filter(t => t.status === "Completed").length}
+                  </p>
+                  <p className="text-sm text-muted-foreground">Completed</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="space-y-2">
+              <h3 className="font-semibold text-lg">M.Tech Supervision</h3>
+              <div className="grid grid-cols-2 gap-3">
+                <div className="p-3 bg-blue-500/5 rounded-lg">
+                  <p className="text-2xl font-bold">{mtechTheses.length}</p>
+                  <p className="text-sm text-muted-foreground">Total Theses</p>
+                </div>
+                <div className="p-3 bg-green-500/5 rounded-lg">
+                  <p className="text-2xl font-bold text-green-600">
+                    {mtechTheses.filter(t => t.status === "Completed").length}
+                  </p>
+                  <p className="text-sm text-muted-foreground">Completed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-6 pt-4 border-t">
+            <p className="text-sm text-muted-foreground">
+              <span className="font-semibold">Total Theses Guided:</span> {phdTheses.length + mtechTheses.length} 
+              <span className="mx-2">•</span>
+              <span className="font-semibold">Completed:</span> {
+                phdTheses.filter(t => t.status === "Completed").length + 
+                mtechTheses.filter(t => t.status === "Completed").length
+              }
+            </p>
+          </div>
+        </CardContent>
+      </Card>
+
       <div className="grid md:grid-cols-2 gap-8">
         {/* PhD Theses Section */}
         <Card className="hover:shadow-xl transition-all duration-300 border-primary/20" style={{"height": "fit-content"}}>
@@ -320,61 +375,6 @@ const ThesisGuided = () => {
           </CardContent>
         </Card>
       </div>
-
-      {/* Summary Card */}
-      <Card className="mt-8 hover:shadow-lg transition-all duration-300">
-        <CardContent className="p-6">
-          <div className="flex items-center gap-3 mb-4">
-            <Users className="h-6 w-6 text-primary" />
-            <h2 className="text-xl font-bold">Supervision Summary</h2>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="space-y-2">
-              <h3 className="font-semibold text-lg">PhD Supervision</h3>
-              <div className="grid grid-cols-2 gap-3">
-                <div className="p-3 bg-primary/5 rounded-lg">
-                  <p className="text-2xl font-bold">{phdTheses.length}</p>
-                  <p className="text-sm text-muted-foreground">Total Theses</p>
-                </div>
-                <div className="p-3 bg-green-500/5 rounded-lg">
-                  <p className="text-2xl font-bold text-green-600">
-                    {phdTheses.filter(t => t.status === "Completed").length}
-                  </p>
-                  <p className="text-sm text-muted-foreground">Completed</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="space-y-2">
-              <h3 className="font-semibold text-lg">M.Tech Supervision</h3>
-              <div className="grid grid-cols-2 gap-3">
-                <div className="p-3 bg-blue-500/5 rounded-lg">
-                  <p className="text-2xl font-bold">{mtechTheses.length}</p>
-                  <p className="text-sm text-muted-foreground">Total Theses</p>
-                </div>
-                <div className="p-3 bg-green-500/5 rounded-lg">
-                  <p className="text-2xl font-bold text-green-600">
-                    {mtechTheses.filter(t => t.status === "Completed").length}
-                  </p>
-                  <p className="text-sm text-muted-foreground">Completed</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="mt-6 pt-4 border-t">
-            <p className="text-sm text-muted-foreground">
-              <span className="font-semibold">Total Theses Guided:</span> {phdTheses.length + mtechTheses.length} 
-              <span className="mx-2">•</span>
-              <span className="font-semibold">Completed:</span> {
-                phdTheses.filter(t => t.status === "Completed").length + 
-                mtechTheses.filter(t => t.status === "Completed").length
-              }
-            </p>
-          </div>
-        </CardContent>
-      </Card>
     </div>
   );
 };

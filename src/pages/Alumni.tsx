@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Users, GraduationCap, Briefcase, MapPin, Mail, ExternalLink } from "lucide-react";
+import { Users, GraduationCap, Briefcase, MapPin, Mail, ExternalLink, BookOpen } from "lucide-react";
 // Import alumni photos (you'll need to add these images to your assets)
 import alumni1 from "@/assets/user.jpg";
 import alumni2 from "@/assets/user.jpg";
@@ -18,6 +18,12 @@ import dibya from "@/assets/242432003.jpg";
 import shanti from "@/assets/242432007.jpeg";
 import Tanuj from "@/assets/Tanuj.jpg";
 import Ramakant from "@/assets/Ramakant.jpeg";
+
+import StudentCard from "@/components/StudentCard";
+
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+// import { Card, CardContent } from "@/components/ui/card";
+// import { Users, GraduationCap, BookOpen } from "lucide-react";
 
 const Alumni = () => {
   const alumniData = [
@@ -203,9 +209,24 @@ const Alumni = () => {
       photo: alumni6,
     }
   ];
+
+  const students = alumniData;
+
   // Group alumni by program type
   const phdAlumni = alumniData.filter(alumni => alumni.program.includes("PhD"));
   const mtechAlumni = alumniData.filter(alumni => alumni.program.includes("M.Tech"));
+
+  const mtechStudents = students.filter(student => 
+    student.program.includes("M.Tech") || student.program.includes("Master's")
+  );
+  
+  const phdStudents = students.filter(student => 
+    student.program.includes("PhD") || student.program.includes("Philosophy")
+  );
+
+  const postDoc = students.filter(student => 
+    student.program.includes("Post Doctoral") || student.program.includes("Post-Doctoral")
+  );
 
   return (
     <div className="max-w-6xl mx-auto animate-fade-in space-y-8">
@@ -236,6 +257,54 @@ const Alumni = () => {
           </div>
         </CardContent>
       </Card>
+
+      {/* Tabs Navigation */}
+      <Tabs defaultValue="all" className="space-y-6">
+        <TabsList className="grid w-full grid-cols-3">
+          <TabsTrigger value="all" className="flex items-center gap-2">
+            <Users className="h-4 w-4" />
+            Total ({students.length})
+          </TabsTrigger>
+          <TabsTrigger value="phd" className="flex items-center gap-2">
+            <BookOpen className="h-4 w-4" />
+            PhD ({phdStudents.length})
+          </TabsTrigger>
+          <TabsTrigger value="mtech" className="flex items-center gap-2">
+            <GraduationCap className="h-4 w-4" />
+            M.Tech ({mtechStudents.length})
+          </TabsTrigger>
+        </TabsList>
+
+        <TabsContent value="all">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {students.map((student, index) => (
+              <div key={index} className="animate-fade-in hover-scale">
+                <StudentCard {...student} />
+              </div>
+            ))}
+          </div>
+        </TabsContent>
+
+        <TabsContent value="phd">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {phdStudents.map((student, index) => (
+              <div key={index} className="animate-fade-in hover-scale">
+                <StudentCard {...student} />
+              </div>
+            ))}
+          </div>
+        </TabsContent>
+
+        <TabsContent value="mtech">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {mtechStudents.map((student, index) => (
+              <div key={index} className="animate-fade-in hover-scale">
+                <StudentCard {...student} />
+              </div>
+            ))}
+          </div>
+        </TabsContent>
+      </Tabs>
 
       {/* Alumni Grid */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
