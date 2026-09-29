@@ -25,6 +25,10 @@ import Shruti from "@/assets/Shruti.jpeg";
 import Suresh from "@/assets/Suresh.jpeg";
 import Aayushi from "@/assets/Aayushi.jpeg";
 import Swati from "@/assets/swati.jpeg";
+import Holder from "@/assets/holder.png";
+
+import Ritika from "@/assets/Ritika.jpeg";
+import Saurabh from "@/assets/Saurabh.jpeg";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
@@ -39,8 +43,19 @@ const Team = () => {
       researchArea: "AI/ML for Weather & Climate", 
       email: "tdn2408aayushi@gmail.com ",
       photo: Aayushi,
-      resumeUrl: "/resumes/Aaysuhi.pdf", // Set to null or undefined
+      resumeUrl: "/resumes/Aayushi.pdf", // Set to null or undefined
       linkedinUrl: "https://www.linkedin.com/in/aayushitandon04",
+      showResume: false, // Add this flag
+    },
+    { 
+      name: "Dr. Naina Sharma",
+      program: "Post Doctoral Scientist",
+      year: "2026-Present",
+      researchArea: "AI/ML for Weather & Climate", 
+      email: "",
+      photo: Holder,
+      resumeUrl: null, // Set to null or undefined
+      linkedinUrl: "https://www.linkedin.com/in/naina-sharma-a666ba193/",
       showResume: false, // Add this flag
     },
     // { 
@@ -154,7 +169,7 @@ const Team = () => {
       program: "PhD Research Scholar",
       year: "2024-Present",
       researchArea: "Sea Level Variability",
-      email: "abhinavchaudhary@nitdelhi.ac.in",
+      email: "abhinavchaudhary10@gmail.com",
       photo: Abhinav,
       resumeUrl: "/resumes/Abhinav.pdf",
       linkedinUrl: "https://www.linkedin.com/in/abhinav-chaudhary12/",
@@ -207,6 +222,28 @@ const Team = () => {
       researchArea: "",
       email: "swatibhalaik@nitdelhi.ac.in",
       photo: Swati,
+      resumeUrl: "",
+      linkedinUrl: "https://www.linkedin.com/in/swatibhalaik-213sb/",
+    },
+
+    {
+      name: "Ritika Panthri",
+      program: "PhD Research Scholar",
+      year: "2026-Present",
+      researchArea: "",
+      email: "panthriritika1@gmail.com",
+      photo: Ritika,
+      resumeUrl: "",
+      linkedinUrl: "https://www.linkedin.com/in/ritika-panthari-ab1419320/",
+    },
+
+    {
+      name: "Saurabh Yadav",
+      program: "PhD Research Scholar",
+      year: "2026-Present",
+      researchArea: "",
+      email: "saurabhyadav@nitdelhi.ac.in",
+      photo: Saurabh,
       resumeUrl: "",
       linkedinUrl: "https://www.linkedin.com/in/swatibhalaik-213sb/",
     },
