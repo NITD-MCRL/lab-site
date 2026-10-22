@@ -30,6 +30,12 @@ import Holder from "@/assets/holder.png";
 import Ritika from "@/assets/Ritika.jpeg";
 import Saurabh from "@/assets/Saurabh.jpeg";
 
+// import RajVerma from "@/assets/RajVerma.jpg";
+import RajVerma from "@/assets/holder.png";
+
+import ParamitaDebbarma from "@/assets/ParamitaDebbarma.jpg";
+import HarshKiran from "@/assets/HarshKiran.jpg";
+
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
 const Team = () => {
@@ -374,6 +380,36 @@ const Team = () => {
       photo: Vanagaraouthu,
       resumeUrl: "/resumes/Vanagaraouthu.pdf",
       linkedinUrl: "https://www.linkedin.com/in/vanagarouthu-sreechaitran-b0152525a/",
+    },
+    {
+      name: "HarshKiran",
+      program: "M.Tech Research Scholar",
+      year: "2026-2028",
+      researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
+      email: "harshhande95@gmail.com",
+      photo: HarshKiran,
+      resumeUrl: "/resumes/HarshKiran.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/harsh-hande-8bb20a244/",
+    },
+    {
+      name: "Paramita Debbarma",
+      program: "M.Tech Research Scholar",
+      year: "2026-2028",
+      researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
+      email: "paramitadebbarma404@gmail.com",
+      photo: ParamitaDebbarma,
+      resumeUrl: "/resumes/ParamitaDebbarma.pdf",
+      linkedinUrl: "http://www.linkedin.com/in/paramita-debbarma-810a8230a",
+    },
+    {
+      name: "Raj Verma",
+      program: "M.Tech Research Scholar",
+      year: "2026-2028",
+      researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
+      email: "rajverma92173@gmail.com",
+      photo: RajVerma,
+      resumeUrl: "/resumes/RajVerma.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/",
     },
   ];
 
