@@ -31,10 +31,16 @@ import Ritika from "@/assets/Ritika.jpeg";
 import Saurabh from "@/assets/Saurabh.jpeg";
 
 // import RajVerma from "@/assets/RajVerma.jpg";
-import RajVerma from "@/assets/holder.png";
+// import RajVerma from "@/assets/holder.png";
 
 import ParamitaDebbarma from "@/assets/ParamitaDebbarma.jpg";
 import HarshKiran from "@/assets/HarshKiran.jpg";
+
+import HemantYadav from "@/assets/HemantYadav.jpeg";
+import SuhaniDwivedi from "@/assets/Suhani.png";
+import AryanSingh from "@/assets/AryanSingh.jpeg";
+import NainaSharma from "@/assets/NainaSharma.jpeg";
+import RajVerma from "@/assets/RajVerma.jpeg";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
@@ -382,7 +388,17 @@ const Team = () => {
       linkedinUrl: "https://www.linkedin.com/in/vanagarouthu-sreechaitran-b0152525a/",
     },
     {
-      name: "HarshKiran",
+      name: "Aryan Singh",
+      program: "M.Tech Research Scholar",
+      year: "2026-2028",
+      researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
+      email: "262432002@nitdelhi.ac.in",
+      photo: AryanSingh,
+      resumeUrl: "/resumes/AryanSingh.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/",
+    },
+    {
+      name: "Harsh Kiran",
       program: "M.Tech Research Scholar",
       year: "2026-2028",
       researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
@@ -390,6 +406,16 @@ const Team = () => {
       photo: HarshKiran,
       resumeUrl: "/resumes/HarshKiran.pdf",
       linkedinUrl: "https://www.linkedin.com/in/harsh-hande-8bb20a244/",
+    },
+    {
+      name: "Hemant Yadav",
+      program: "M.Tech Research Scholar",
+      year: "2026-2028",
+      researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
+      email: "Hemant.yadavdev@gmail.com",
+      photo: HemantYadav,
+      resumeUrl: "/resumes/HemantYadav.pdf",
+      linkedinUrl: "https://www.linkedin.com/in/",
     },
     {
       name: "Paramita Debbarma",
@@ -411,6 +437,17 @@ const Team = () => {
       resumeUrl: "/resumes/RajVerma.pdf",
       linkedinUrl: "https://www.linkedin.com/in/",
     },
+    {
+      name: "Suhani Dwivedi",
+      program: "M.Tech Research Scholar",
+      year: "2026-2028",
+      researchArea: "Machine Learning, Deep Learning, Artificial Intelligence",
+      email: "suhanid600@gmail.com",
+      photo: SuhaniDwivedi,
+      resumeUrl: "/resumes/SuhaniDwivedi.pdf",
+      linkedinUrl: "https://linkedin.com/in/suhani-dwivedi-3439b425a/",
+    },
+
   ];
 
   const mtechStudents = students.filter(student => 
