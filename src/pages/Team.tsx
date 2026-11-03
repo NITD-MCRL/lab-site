@@ -65,7 +65,7 @@ const Team = () => {
       year: "2026-Present",
       researchArea: "AI/ML for Weather & Climate", 
       email: "",
-      photo: Holder,
+      photo: NainaSharma,
       resumeUrl: null, // Set to null or undefined
       linkedinUrl: "https://www.linkedin.com/in/naina-sharma-a666ba193/",
       showResume: false, // Add this flag
